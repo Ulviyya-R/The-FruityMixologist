@@ -131,7 +131,7 @@
                                     
                                     <input style="width: 300px;" type="text" asp-for="RecipeComments.FirstOrDefault(cm => cm.Recipe.Id == Model.Id).Text" class="form-control" placeholder="Comment" />
                                  
-                                    <button type="submit" class="ms-2">Add Comment</button>
+                                        <button type="submit" class="ms-2" >Add Comment</button>
                                 </form>
                                 <script>
                                     function fillStars(rating) {
@@ -156,7 +156,25 @@
                                                 console.log(result);
                                             })
                                             .catch(error => console.log(error));
+
+                                        stars.forEach((star, i) => {
+                                            star.addEventListener("click", function () {
+                                                star.firstElementChild.click();
+                                                let currentStar = i + 1;
+                                                stars.forEach((star, j) => {
+                                                    if (currentStar >= j + 1) {
+                                                        star.classList.add("active");
+                                                        star.style.color = "#FEC006";
+                                                    } else {
+                                                        star.classList.remove("active");
+                                                        star.style.color = "lightgray";
+                                                    }
+                                                });
+                                            })
+                                        });
                                     }
+
+                                   
                                 </script>
                             
 
