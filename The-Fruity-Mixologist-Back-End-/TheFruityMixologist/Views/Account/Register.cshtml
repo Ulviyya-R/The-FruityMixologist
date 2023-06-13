@@ -1,0 +1,86 @@
+﻿@using TheFruityMixologist.ViewModels
+@model RegisterVM
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+
+<main>
+    <section id="Register">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img width="100%"
+                             src="~/assets/photos/RegisterLogin/Rectangle 908.png"
+                             alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="regs">
+
+                        <div class="center" style="margin-left: 65px;">
+                            <div class="title">Register</div>
+                            <form asp-controller="Account" asp-action="Register" method="post" enctype="multipart/form-data">
+                              <input asp-for="ProfilePicture" accept="image/*" />
+                                <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+
+                                <input placeholder="Firstname" asp-for="Firstname" />
+                                <span asp-validation-for="Firstname" class="text-danger"></span>
+                                <br>
+                               
+                                    <input placeholder="Lastname" asp-for="Lastname" />
+                                    <span asp-validation-for="Lastname" class="text-danger"></span>
+                                    <br>
+                               
+                               
+                                <input placeholder="Email"
+                                       asp-for="Email" /> <br>
+                                <span asp-validation-for="Email" class="text-danger"></span> <br />
+
+                                <input placeholder="Username"
+                                       asp-for="Username" /> <br />
+                                <span asp-validation-for="Username" class="text-danger"></span>
+                               <br />
+
+                               <div class="PasswordConfirm d-flex">
+                                <input style="width:220px"  asp-for="Password"
+                                       placeholder="Password" /> <br />
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                                       <br>
+
+                                <input style="width:220px" asp-for="ConfirmPassword" placeholder="Confirm Password">
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                               </div>
+
+                                <div class="clearfix d-flex">
+                                    <input  asp-for="Terms" checked="checked" style="width:16px; height:18px">
+                                    <label asp-for="Terms">Terms</label> <br />
+                                    <span asp-validation-for="Terms" class="text-danger"></span>
+
+                                </div>
+
+
+
+
+                                <button type="submit" style="margin-top:0px; height:55px !important">
+                                    <a>Continue</a>
+                                </button>
+                            </form>
+                            <div class="signIn" style="padding-top:8px !important">
+                                <span>
+                                    Already have an account?
+                                    <a asp-controller="Account" asp-action="Login">Sign in</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js" integrity="sha512-o6XqxgrUsKmchwy9G5VRNWSSxTS4Urr4loO6/0hYdpWmFUfHqGzawGxeQGMDqYzxjY9sbktPbNlkIQJWagVZQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

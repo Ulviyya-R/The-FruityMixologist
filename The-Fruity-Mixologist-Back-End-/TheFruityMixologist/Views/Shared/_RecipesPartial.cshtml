@@ -1,0 +1,50 @@
+﻿@model List<Recipe>
+@{
+    List<Rating> ratings = ViewBag.Ratings;
+}
+
+@foreach (Recipe recipe in Model.Where(r=>r.IsCreatingUserCock==false))
+{
+    <div class="col-lg-4">
+        <div class="product">
+            <div class="image">
+                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@recipe.Id">
+                    <img style="width: 100%" src="~/assets/photos/Recipes/@recipe.RecipesImages.FirstOrDefault(ri => ri.IsMain == true)?.Path" />
+                </a>
+            </div>
+            <div class="categoryName">
+                @foreach (var recipeCategory in recipe.RecipesCategories)
+                {
+                    <span>@recipeCategory.Category.Name</span>
+                }
+            </div>
+            <div class="productName">
+                <span>@recipe.Name</span>
+            </div>
+            <div class="price" style="display:inline">
+                <span>$@recipe.Price</span>
+            </div>
+            |
+
+            @{
+                int totalRatings = ratings.Count(r => r.Comment.RecipeId == recipe.Id && r.Comment.Recipe.PointReyting.HasValue);
+                double averageRating = totalRatings > 0 ? (double)ratings.Where(r => r.Comment.RecipeId == recipe.Id && r.Comment.Recipe.PointReyting.HasValue).Sum(r => r.Comment.Recipe.PointReyting.Value) / totalRatings : 0;
+                int roundedRating = (int)Math.Round(averageRating, MidpointRounding.AwayFromZero);
+            }
+
+            @if (totalRatings > 0)
+            {
+                <i class="fas fa-star filled" style="font-size:20px;color:yellow"></i>
+                <span class="rate-point">@averageRating.ToString("0.0")</span>
+            }
+            else
+            {
+                <i class="fas fa-star filled" style="font-size:20px;color:yellow"></i>
+                <span class="rate-point">(0)</span>
+            }
+
+           
+
+        </div>
+    </div>
+}

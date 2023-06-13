@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "VisbyBold";
+  src: url("../font/VisbyBold.otf");
+}
+@font-face {
+  font-family: "Visby";
+  src: url("../font/VisbyMedium.otf");
+}
+
+body {
+  main {
+    #CheckMessage {
+      .image{
+        height: 659px;
+        img{
+          height: 100%;
+        }
+      }
+      .check {
+        height: 659px;
+        margin-left: -24px;
+        background-color: #ebeae6;
+   .center{
+    text-align: center;
+    padding-top: 120px;
+    .logo {
+      padding-top: 160px;
+      width: 220px;
+      height: 43.98px;
+    }
+    .title {
+      font-size: 32px;
+      line-height: 34px;
+      color: #525666;
+      font-family: VisbyBold;
+      padding-top: 65px;
+    }
+    .email {
+      font-size: 16px;
+      line-height: 26px;
+      color: #363947;
+    }
+  
+    input {
+      background-color: transparent;
+      border: 1px solid #707070;
+      color: black;
+      border-radius: 8px;
+      width: 368px;
+      height: 54px;
+      padding: 12px 16px;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 20px;
+      width: 368px;
+      height: 60px;
+      padding: 18px 42px;
+      background: #ed0039;
+      border-radius: 8px;
+      a {
+        font-size: 18px;
+        text-decoration: none;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    .repeat {
+        padding-top: 30px;
+      margin-right: 20px;
+      span {
+        font-size: 18px;
+        line-height: 24px;
+        color: #777c90;
+        a {
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 22px;
+          color: #0a0a0a;
+        }
+      }
+    }
+   }
+      }
+    }
+  }
+  @media only screen and (min-width: 390px) and (max-width: 820px){
+    main {  
+      #CheckMessage {
+        .image {
+          height: 659px;
+    
+          img {
+            height: 100%;
+          }
+        }
+    
+        .check {
+          height: 659px;
+          margin-left: -24px;
+          background-color: #ebeae6;
+    
+          .logo {
+            padding-top: 160px;
+            width: 220px;
+            height: 43.98px;
+          }
+    
+          .title {
+            font-size: 32px;
+            line-height: 34px;
+            color: #525666;
+            font-family: VisbyBold;
+            padding-top: 65px;
+          }
+    
+          .email {
+            font-size: 16px;
+            line-height: 26px;
+            color: #363947;
+          }
+    
+          input {
+            background-color: transparent;
+            border: 1px solid #707070;
+            color: black;
+            border-radius: 8px;
+            width: 368px;
+            height: 54px;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+          }
+    
+          button {
+            margin-top: 20px;
+            width: 368px;
+            height: 60px;
+            padding: 18px 42px;
+            background: #ed0039;
+            border-radius: 8px;
+    
+            a {
+              font-size: 18px;
+              text-decoration: none;
+              line-height: 24px;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+    
+          .repeat {
+            padding-top: 30px;
+            margin-right: 20px;
+    
+            span {
+              font-size: 18px;
+              line-height: 24px;
+              color: #777c90;
+    
+              a {
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 22px;
+                color: #0a0a0a;
+              }
+            }
+          }
+        }
+      }
+    
+      // Responsive styles for screen width between 390px and 820px
+      @media only screen and (min-width: 390px) and (max-width: 820px) {
+        #CheckMessage {
+          .image {
+            height: auto;
+    
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+          .col-lg-6{
+            padding-right: 0px;
+          }
+    
+          .check {
+            height: auto;
+            padding-bottom: 40px;
+    
+         .center{
+          margin-left: 28px;
+          .logo {
+            padding-top: 80px;
+            width: 160px;
+            height: 32px;
+          }
+  
+          .title {
+            font-size: 24px;
+            line-height: 26px;
+            padding-top: 40px;
+          }
+  
+          .email {
+            font-size: 14px;
+            line-height: 22px;
+          }
+  
+          input {
+            width: 310px;
+          }
+  
+          button {
+            width: 310px;
+  
+            a {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+  
+          .repeat {
+            padding-top: 20px;
+  
+            span {
+              font-size: 16px;
+              line-height: 20px;
+  
+              a {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+         }
+          }
+        }
+      }
+    }
+    
+  }
+}

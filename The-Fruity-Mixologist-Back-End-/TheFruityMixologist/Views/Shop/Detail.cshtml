@@ -1,0 +1,230 @@
+﻿@model Recipe
+@{
+    ViewData["Title"] = "Detail";
+    List<Recipe> related = ViewBag.RelatedProduct;
+}
+<style>
+    .yellow-star {
+        color: yellow;
+    }
+
+    .gray-star {
+        color: gray;
+    }
+</style>
+<main>
+    <section id="Detail">
+        <div class="container">
+            <div class="row">
+                <div class="cocktailName">
+                    <span> @Model.Name </span>
+                </div>
+                <div class="imagesAndDesc">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="mainImage">
+                                    <img style="width: 100%; height:100%"
+                                         src="~/assets/photos/Recipes/@Model.RecipesImages.FirstOrDefault(ri=>ri.IsMain==true)?.Path" />
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="Falseimage">
+                                    <img style="width: 100%; height:100%"
+                                         src="~/assets/photos/Recipes/@Model.RecipesImages.FirstOrDefault(ri=>ri.IsMain==false)?.Path" />
+                                </div>
+                                
+                                <span class="price">$@Model.Price</span>
+                                <span class="like">
+                                    <a class="heartIconn" id="like" data-recipe-id="@Model.Id">
+                                        <i class="bi bi-heart likeIcon  @(Model.WishListItems.Any(w => w.User.UserName == User.Identity.Name && w.isLiked == true) ? "d-none" : "")"></i>
+                                    </a>
+                                    <a class="heartIconn" id="removelike" data-recipe-id="@Model.Id">
+                                        <i class="bi bi-heartbreak removelikeIcon   @(Model.WishListItems.Any(w => w.User.UserName == User.Identity.Name && w.isLiked == true) ? "hidden" : "")"></i>
+                                    </a>
+
+                                </span>
+                                <p class="desc">
+                                    @Model.Desc
+                                </p>
+                              
+                                <form asp-controller="Basket" asp-action="AddBasket" asp-route-id="@Model.Id">
+                                    <div class="quantity">
+                                            <button type="button" style="width: 35px;background-color: white;" class="qtyminus" aria-hidden="true">&minus;</button>
+                                            <input type="number" name="count" id="qty" min="1" max="10" step="1" value="1">
+                                            <button type="button" style="width: 35px;background-color: white;" class="qtyplus" aria-hidden="true">&plus;</button>
+                                    </div>
+                                <div class="addtoBasket">
+                                    <button type="submit">Add to basket</button>
+                                </div>
+                                    </form>
+                            
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="IngredientsandSteps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="Ingredients">
+                            <span class="title">Ingredients</span>
+                            <ol type="1" start="1" class="Ingredient">
+                                @foreach (var ingredients in Model.Ingredients) { 
+                                    <li>@ingredients.Ingredients</li>
+                                }
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="Steps">
+                            <span class="title">Steps</span>
+                            <ol type="1" start="1" class="Steps">
+                                @foreach (var steps in Model.Steps)
+                                {
+                                    <li>@steps.Steps</li>
+                                }
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="Reviews">
+            <div class="container">
+                <div class="row">
+                    <div class="title">Reviews</div>
+                    <div class="comments_users">
+                        <div class="addComment">
+                            @if(User.Identity.IsAuthenticated){
+                                <form style="display: flex;" asp-controller="Shop" asp-action="AddComment" asp-route-id="@Model.Id" method="post">
+                                    <div class="add-rate">
+                                        
+                                        <style>
+                                            i::active{
+                                                color:yellow;
+                                            }
+                                        </style>
+                                        <i class="fa-regular fa-star rate-it" onclick="fillStars(1)" style="cursor:pointer;font-size:20px;">
+                                            <input asp-for="RecipeComments.FirstOrDefault(c=>c.RecipeId == Model.Id).Rating.Point" type="radio" value="1" style="display:none" />
+                                        </i>
+                                        <i class="fa-regular fa-star rate-it" onclick="fillStars(2)" style="cursor:pointer;font-size:20px;">
+                                            <input asp-for="RecipeComments.FirstOrDefault(c=>c.RecipeId == Model.Id).Rating.Point" type="radio" value="2" style="display:none" />
+                                        </i>
+                                        <i class="fa-regular fa-star rate-it" onclick="fillStars(3)" style="cursor:pointer;font-size:20px;">
+                                            <input asp-for="RecipeComments.FirstOrDefault(c=>c.RecipeId == Model.Id).Rating.Point" type="radio" value="3" style="display:none" />
+                                        </i>
+                                        <i class="fa-regular fa-star rate-it" onclick="fillStars(4)" style="cursor:pointer;font-size:20px;">
+                                            <input asp-for="RecipeComments.FirstOrDefault(c=>c.RecipeId == Model.Id).Rating.Point" type="radio" value="4" style="display:none" />
+                                        </i>
+                                        <i class="fa-regular fa-star rate-it" onclick="fillStars(5)" style="cursor:pointer;font-size:20px;">
+                                            <input asp-for="RecipeComments.FirstOrDefault(c=>c.RecipeId == Model.Id).Rating.Point" type="radio" value="5" style="display:none" />
+                                        </i>
+
+                                    
+                                    <input style="width: 300px;" type="text" asp-for="RecipeComments.FirstOrDefault(cm => cm.Recipe.Id == Model.Id).Text" class="form-control" placeholder="Comment" />
+                                 
+                                    <button type="submit" class="ms-2">Add Comment</button>
+                                </form>
+                                <script>
+                                    function fillStars(rating) {
+                                        const stars = document.querySelectorAll('.rate-it');
+                                        stars.forEach((star) => {
+                                            star.addEventListener("click", function(){
+                                                star.firstElementChild.click()
+                                                 star.classList.add("active");
+                                             star.style.color = "yellow";
+                                            })
+                                        });
+
+                                        const form = document.querySelector('form');
+                                        const formData = new FormData(form);
+
+                                        fetch(form.action, {
+                                            method: form.method,
+                                            body: formData
+                                        })
+                                            .then(response => response.text())
+                                            .then(result => {
+                                                console.log(result);
+                                            })
+                                            .catch(error => console.log(error));
+                                    }
+                                </script>
+                            
+
+
+
+
+                            }
+                        </div>
+
+                        @foreach(var comment in Model.RecipeComments)
+                        {
+                            <div class="comment_item">
+                                <div class="comment_item_user">
+                                    <img class="primary-img" style="width:100px;height:100px; object-fit:contain"
+                                     src="~/assets/photos/myAccount/@comment.User.Path"
+                                     alt="User Image" />   
+                                     <div class="rayting" >
+                                        @{
+                                            double rating = comment.Rating.Point;
+                                            }
+                                        @{
+                                            for (int i = 1; i <= 5; i++){
+                                                if (i <= rating)
+                                                {
+                                                            <span class="yellow-star">&#9733;</span>
+                                           }
+                                           else{
+                                                           <span class="gray-star"></span>
+                                           }
+                                       }
+                                    }
+
+                                     </div>
+                                    <span class="user_name">@comment.User.UserName</span>
+                                    <span class="date">@comment.CreationTime</span>
+                                </div>
+                                <div class="comment_item_content">
+                                    <p>
+                                       @comment.Text
+                                    </p>
+                                </div>
+                            </div>
+
+                        }
+                        
+
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="RelatedProducts">
+        <div class="container">
+            <div class="row">
+                <div class="title">More products you may like</div>
+                <div class="products">
+                    <div class="row">
+                        @await Html.PartialAsync("_RelatedRecipes", related)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+@section Scripts{
+    <script src="~/assets/js/detail.js"></script>
+}

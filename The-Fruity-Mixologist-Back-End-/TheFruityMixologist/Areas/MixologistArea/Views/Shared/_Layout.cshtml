@@ -1,0 +1,527 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using TheFruityMixologist.Utilities.Enum;
+@inject UserManager<User> UserManager
+@inject TheFruityMixologist.Services.LayoutService layoutService
+
+@{
+    List<Order> orders = layoutService.GetAllOrderItem();
+}
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dashboard V.1 | Nalika - Material Admin Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+        ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/admin/assets/img/favicon.ico">
+    <!-- Google Fonts
+        ============================================ -->
+    <link href="~/admin/assets/https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="~/admin/assets/css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/font-awesome.min.css">
+    <!-- nalika Icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/nalika-icon.css">
+    <!-- owl.carousel CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/admin/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="~/admin/assets/css/owl.transitions.css">
+    <!-- animate CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/animate.css">
+    <!-- normalize CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/normalize.css">
+    <!-- meanmenu icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/meanmenu.min.css">
+    <!-- main CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/main.css">
+    <!-- morrisjs CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="~/admin/assets/css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="~/admin/assets/css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/style.css">
+    <!-- responsive CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/admin/assets/css/responsive.css">
+    @RenderSection("Css",false)
+    <!-- modernizr JS
+        ============================================ -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a asp-area="MixologistArea" asp-controller="Dashboard" asp-action="Dashboard">
+                    <img width="150px" style="margin-top:17px" class="main-logo" src="~/assets/photos/loqo/logo.png" alt="" />
+             </a>
+            </div>
+            <div class="nalika-profile">
+                <div class="profile-dtl">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        var user = await UserManager.GetUserAsync(User);
+
+                        if (user != null)
+                        {
+                            var userId = await UserManager.GetUserIdAsync(user);
+
+                            <img src="~/assets/photos/myAccount/@user.Path" alt="" />
+                            <h2>@user.UserName</h2>
+                        }
+                    }
+                   
+                </div>
+                
+            </div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <li>
+                            <a asp-area="MixologistArea" asp-controller="Dashboard" asp-action="Dashboard">
+                            <i class="icon nalika-home icon-wrap"></i>
+                                <span class="mini-click-non">Dashboard</span>
+                           </a>
+                        </li>
+                        <li class="active">
+                            <a class="has-arrow" href="~/admin/assets/~/admin/assets/index.html">
+                                <i class="icon nalika-home icon-wrap"></i>
+                                <span class="mini-click-non">Ecommerce</span>
+                            </a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li class="nav-item"> <a class="nav-link" asp-controller="Recipes" asp-action="Index">Recipes Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="Category" asp-action="Index">Category Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="PopularSlider" asp-action="Index">PopularSlider Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="EventSlider" asp-action="Index">Event Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="Order" asp-action="Index">Order Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="User" asp-action="Index">User Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="Collection" asp-action="Index">Collection Controller</a></li>
+                                <li class="nav-item"> <a class="nav-link" asp-controller="Settings" asp-action="Index">Setting Controller</a></li>
+
+
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a asp-area="MixologistArea" asp-controller="Dashboard" asp-action="Dashboard"><img class="main-logo" src="~/admin/assets/img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+                                                <i class="icon nalika-menu-task"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-11 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item">
+                                                    <a href="~/admin/assets/~/admin/assets/#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                        <i class="icon nalika-alarm" aria-hidden="true"></i>@if (orders.Any(o => o.Status == null))
+                                                        {
+                                                            <span class="indicator-nt"></span>
+                                                        }</a>
+                                                    <div role="menu" class="notification-author dropdown-menu animated zoomIn">
+                                                        <div class="notification-single-top">
+                                                            <h1>Notifications</h1>
+                                                        </div>
+                                                        <ul class="notification-menu">
+                                                       @foreach (var item in orders.Where(o=>o.Status==null))  
+                                                            {
+                                                                <li>
+                                                                    <a asp-area="MixologistArea" asp-controller="Order" asp-action="Edit" asp-route-id="@item.Id">
+                                                                        <div class="notification-icon">
+                                                                            <i class="icon nalika-tick" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <div class="notification-content">
+                                                                            <h2>@item.User.Fullname</h2>
+                                                                            <p>@item.TotalPrice</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            }
+                                                 
+                                                        </ul>
+                                                        <div class="notification-view">
+                                                            <a href="~/admin/assets/~/admin/assets/#">View All Notification</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item">
+                                                    @if (User.Identity.IsAuthenticated)
+                                                    {
+                                                        var user = await UserManager.GetUserAsync(User);
+
+                                                        if (user != null)
+                                                        {
+                                                            var userId = await UserManager.GetUserIdAsync(user);
+
+                                                            <a href="~/admin/assets/~/admin/assets/#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+                                                                <i class="icon nalika-user"></i>
+                                                                <span class="admin-name">@user.UserName</span>
+                                                                <i class="icon nalika-down-arrow nalika-angle-dw"></i>
+                                                            </a>
+                                                        }
+                                                    }
+                                                  
+                                                    <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                        <li>
+                                                            <a asp-area="MixologistArea" asp-controller="AdminLogin" asp-action="Register"><span class="icon nalika-home author-log-ic"></span> Register</a>
+                                                        </li>
+                                                       
+                                                        <li>
+                                                            <a href="~/admin/assets/~/admin/assets/#"><span class="icon nalika-settings author-log-ic"></span> Settings</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="~/admin/assets/~/admin/assets/login.html"><span class="icon nalika-unlocked author-log-ic"></span> Log Out</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Charts" href="~/admin/assets/~/admin/assets/#">Home <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="~/admin/assets/~/admin/assets/index.html">Dashboard v.1</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/index-1.html">Dashboard v.2</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/index-3.html">Dashboard v.3</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/product-list.html">Product List</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/product-edit.html">Product Edit</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/product-detail.html">Product Detail</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/product-cart.html">Product Cart</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/product-payment.html">Product Payment</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/analytics.html">Analytics</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/widgets.html">Widgets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demo" href="~/admin/assets/~/admin/assets/#">Mailbox <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/mailbox.html">Inbox</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/mailbox-view.html">View Mail</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/mailbox-compose.html">Compose Mail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#others" href="~/admin/assets/~/admin/assets/#">Miscellaneous <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="others" class="collapse dropdown-header-top">
+                                                <li><a href="~/admin/assets/~/admin/assets/file-manager.html">File Manager</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/contacts.html">Contacts Client</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/projects.html">Project</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/project-details.html">Project Details</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/blog.html">Blog</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/blog-details.html">Blog Details</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/404.html">404 Page</a></li>
+                                                <li><a href="~/admin/assets/~/admin/assets/500.html">500 Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Miscellaneousmob" href="~/admin/assets/~/admin/assets/#">Interface <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Miscellaneousmob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/google-map.html">Google Map</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/data-maps.html">Data Maps</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/pdf-viewer.html">Pdf Viewer</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/x-editable.html">X-Editable</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/code-editor.html">Code Editor</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/tree-view.html">Tree View</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/preloader.html">Preloader</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/images-cropper.html">Images Cropper</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Chartsmob" href="~/admin/assets/~/admin/assets/#">Charts <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Chartsmob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/bar-charts.html">Bar Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/line-charts.html">Line Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/area-charts.html">Area Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/rounded-chart.html">Rounded Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/c3.html">C3 Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/sparkline.html">Sparkline Charts</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/peity.html">Peity Charts</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Tablesmob" href="~/admin/assets/~/admin/assets/#">Tables <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Tablesmob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/static-table.html">Static Table</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/data-table.html">Data Table</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#formsmob" href="~/admin/assets/~/admin/assets/#">Forms <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="formsmob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Appviewsmob" href="~/admin/assets/~/admin/assets/#">App views <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Appviewsmob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#Pagemob" href="~/admin/assets/~/admin/assets/#">Pages <span class="admin-project-icon nalika-icon nalika-down-arrow"></span></a>
+                                            <ul id="Pagemob" class="collapse dropdown-header-top">
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/login.html">Login</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/register.html">Register</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/lock.html">Lock</a>
+                                                </li>
+                                                <li>
+                                                    <a href="~/admin/assets/~/admin/assets/password-recovery.html">Password Recovery</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="breadcome-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="breadcomb-wp">
+                                            <div class="breadcomb-icon">
+                                                <i class="icon nalika-home"></i>
+                                            </div>
+                                            <div class="breadcomb-ctn">
+                                                <h2>Dashboard One</h2>
+                                                <p>Welcome to Nalika <span class="bread-ntd">Admin Template</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="product-sales-area" style="margin:30px 150px">
+            <div class="container-fluid">
+                <div class="row">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right">
+                            <p>Copyright © 2018 <a href="~/admin/assets/~/admin/assets/https://colorlib.com/wp/templates/">Colorlib</a> All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jquery
+        ============================================ -->
+    <script src="~/admin/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+        ============================================ -->
+    <script src="~/admin/assets/js/bootstrap.min.js"></script>
+    <!-- wow JS
+        ============================================ -->
+    <script src="~/admin/assets/js/wow.min.js"></script>
+    <!-- price-slider JS
+        ============================================ -->
+    <script src="~/admin/assets/js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+        ============================================ -->
+    <script src="~/admin/assets/js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+        ============================================ -->
+    <script src="~/admin/assets/js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+        ============================================ -->
+    <script src="~/admin/assets/js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+        ============================================ -->
+    <script src="~/admin/assets/js/jquery.scrollUp.min.js"></script>
+    <!-- mCustomScrollbar JS
+        ============================================ -->
+    <script src="~/admin/assets/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/admin/assets/js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+        ============================================ -->
+    <script src="~/admin/assets/js/metisMenu/metisMenu.min.js"></script>
+    <script src="~/admin/assets/js/metisMenu/metisMenu-active.js"></script>
+    <!-- sparkline JS
+        ============================================ -->
+    <script src="~/admin/assets/js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/admin/assets/js/sparkline/jquery.charts-sparkline.js"></script>
+    <!-- calendar JS
+        ============================================ -->
+    <script src="~/admin/assets/js/calendar/moment.min.js"></script>
+    <script src="~/admin/assets/js/calendar/fullcalendar.min.js"></script>
+    <script src="~/admin/assets/js/calendar/fullcalendar-active.js"></script>
+    <!-- float JS
+        ============================================ -->
+    <script src="~/admin/assets/js/flot/jquery.flot.js"></script>
+    <script src="~/admin/assets/js/flot/jquery.flot.resize.js"></script>
+    <script src="~/admin/assets/js/flot/curvedLines.js"></script>
+    <script src="~/admin/assets/js/flot/flot-active.js"></script>
+    <!-- plugins JS
+        ============================================ -->
+    <script src="~/admin/assets/js/plugins.js"></script>
+    <!-- main JS
+        ============================================ -->
+    <script src="~/admin/assets/js/main.js"></script>
+    @RenderSection("Scripts",false)
+    @RenderSection("Scripts2",false)
+</body>
+
+</html>

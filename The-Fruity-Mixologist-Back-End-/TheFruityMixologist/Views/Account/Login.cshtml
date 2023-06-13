@@ -1,0 +1,66 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+}
+
+<main>
+    <section id="Login">
+        <div class="container">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img width="100%"
+                             src="~/assets/photos/RegisterLogin/login.png"
+                             alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="login">
+                        <div class="center" style="margin-left: 65px">
+                            <div class="title">Login</div>
+                            <form asp-controller="Account" asp-action="Login" method="post">
+                                <label asp-for="Username">Username</label><br />
+                                <input asp-for="Username" placeholder="Username" />
+                               
+                                <br />
+
+                                <label asp-for="Password">Password</label><br />
+                                <input asp-for="Password"
+                                       placeholder="*********" />
+                                <br />
+
+                                <div class="clearfix">
+                                    <input class="check"
+                                           asp-for="RememberMe"
+                                           name="RememberMe"
+                                           type="checkbox"
+                                           checked="checked" />
+                                    <label asp-for="RememberMe">Remember Me</label>
+                                </div>
+
+                                <button type="submit">
+                                    <a>Sign in</a>
+                                </button>
+                            </form>
+                            <div class="haveAccount">
+                                <span>
+                                    Don’t have an account?
+                                    <a asp-controller="Account" asp-action="Register">Register</a>
+                                </span>
+                            </div>
+                            <div class="forgotPassword">
+                                <a asp-controller="Account" asp-action="ForgotPassword">
+                                    <span>
+                                        Forgot Password
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+

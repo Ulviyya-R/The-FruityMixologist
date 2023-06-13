@@ -1,0 +1,149 @@
+﻿@using TheFruityMixologist.Entities
+@model List<Recipe>
+@{
+    ViewData["Title"] = "Index";
+    List<Recipe> recipes = ViewBag.Recipes;
+    string filter = ViewBag.Filters;
+    int selectedPage = ViewBag.SelectedPage;
+    decimal totalPage = ViewBag.TotalPage;
+}
+
+ <main>
+      <div class="container">
+        <div class="row">
+          <section id="Recipes">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 refineYourSearch"
+                  style="border-right: 1px solid #707070"
+                >
+                  <span class="RefineYour">Refine your search</span>
+                            <form action="#">
+                             
+                                <p>Price</p>
+
+                                <input type="checkbox" id="price110" name="price" value="expensive" onchange="filterPrice()" />
+                                <label class="checkbox" for="price110">
+                                    $ 100+
+                                </label><br />
+
+                                <input type="checkbox" id="price3050" name="price" value="middle" onchange="filterPrice()" />
+                                <label class="checkbox" for="price3050">
+                                    $50 - $100
+                                </label><br />
+
+                                <input type="checkbox" id="price5070" name="price" value="cheap" onchange="filterPrice()" />
+                                <label class="checkbox" for="price5070">
+                                    $30 - $50
+                                </label><br />
+
+
+                                <script>
+                                    function filterPrice() {
+                                        const selectedPrices = Array.from(document.querySelectorAll('input[name="price"]:checked')).map(checkbox => checkbox.value);
+
+                                        const formData = new FormData();
+                                        selectedPrices.forEach(price => {
+                                            formData.append('price', price);
+                                        });
+
+                                        fetch('/shop/SortPrice', {
+                                            method: 'POST',
+                                            body: formData
+                                        })
+                                            .then(response => response.text())
+                                            .then(result => {
+                                                document.getElementById('recipesResult').innerHTML = result;
+                                            })
+                                            .catch(error => console.log(error));
+                                    }
+                                </script>
+                            </form>
+                </div>
+                <div class="col-lg-9">
+                  <div class="row">
+                    <div class="categorys">
+                      <div class="col-lg-12">
+                        <nav>
+                         <ul>
+                                                <li><a asp-controller="shop" asp-action="Sorts" name="sort" value="All">All</a></li>
+                                                <li><a asp-controller="shop" asp-action="Sorts" name="sort" value="Alcoholic">Alcoholic</a></li>
+                                                <li><a asp-controller="shop" asp-action="Sorts" name="sort" value="Non-Alcoholic">Non-Alcoholic</a></li>
+                                                <li><a asp-controller="CreateCocktail" asp-action="Index">Cook it yourself</a></li>
+            </ul>
+            <script>
+                                                                const sortLinks = document.querySelectorAll('a[name="sort"]');
+
+                                                sortLinks.forEach(link => {
+                                                    link.addEventListener('click', (event) => {
+                                                        event.preventDefault();
+                                                        const selectedSort = link.getAttribute('value');
+
+                                                        fetch(`/shop/Sorts?sort=${selectedSort}`, {
+                                                            method: 'POST'
+                                                        })
+                                                            .then(response => response.text())
+                                                            .then(result => {
+                                                                document.getElementById("recipesResult").innerHTML = result;
+                                                            })
+                                                            .catch(error => console.log(error));
+                                                    });
+                                                });
+            </script>
+                        </nav>
+                      </div>
+                    </div>
+                    <div class="products" >
+                                    <div class="container">
+                                        <div class="row" id="recipesResult">
+                                            @await Html.PartialAsync("_RecipesPartial", recipes)
+                                        </div>
+                                    </div>
+                                    <div class="pagination d-flex justify-content-center mt-5"
+                                        <nav class="pagination-outer" aria-label="Page navigation">
+                                            <ul class="pagination">
+
+                                                @if (selectedPage > 1)
+                                                {
+                                                    <li class="page-item">
+                                                        <a asp-action="index" asp-route-page="@(selectedPage-1)" asp-route-fitler="@ViewBag.Filters" class="page-link" aria-label="Previous">
+                                                            <span aria-hidden="true">«</span>
+                                                        </a>
+                                                    </li>
+                                                }
+
+                                                @{
+                                                    int startPage = (selectedPage == 1 || totalPage <= 3) ? 1 : selectedPage < totalPage ? selectedPage - 1 : selectedPage - 2;
+                                                    int endPage = totalPage > 2 ? startPage + 2 : (int)totalPage;
+                                                }
+
+                                                @for (int i = startPage; i <= endPage; i++)
+                                                {
+                                                    <li class="page-item @(i==selectedPage?"active":"")"><a class="page-link" asp-action="index" asp-route-page="@i" asp-route-fitler="@ViewBag.Filters">@i</a></li>
+
+                                                }
+
+                                                @if (selectedPage < totalPage)
+                                                {
+
+                                                    <li class="page-item">
+                                                        <a asp-action="index" asp-route-page="@(selectedPage+1)" asp-route-search="@ViewBag.CurrentSearch" asp-route-regionIdId="@ViewBag.CurrentRegionId" asp-route-typeId="@ViewBag.CurrentTypeId" asp-route-variatyId="@ViewBag.CurrentVariatyId" class="page-link" aria-label="Next">
+                                                            <span aria-hidden="true">»</span>
+                                                        </a>
+                                                    </li>
+                                                }
+
+                                            </ul>
+                                        </nav>
+                                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+

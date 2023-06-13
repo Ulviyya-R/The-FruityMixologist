@@ -1,0 +1,1793 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\accordions.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\accordions.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\alerts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\alerts.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\buttons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\buttons.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\c3\\c3.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\c3\\c3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\calendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\calendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\calendar\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\calendar\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\chosen\\bootstrap-chosen.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\chosen\\bootstrap-chosen.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\chosen\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\chosen\\chosen-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\code-editor\\ambiance.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\code-editor\\ambiance.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\code-editor\\codemirror.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\code-editor\\codemirror.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\colorpicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\colorpicker\\colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\cropper\\cropper.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\cropper\\cropper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\data-table\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\data-table\\bootstrap-editable.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\data-table\\bootstrap-table.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\data-table\\bootstrap-table.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\datapicker\\colorpicker.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\datapicker\\colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\datapicker\\datepicker3.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\datapicker\\datepicker3.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\duallistbox\\bootstrap-duallistbox.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\duallistbox\\bootstrap-duallistbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\editor\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\editor\\bootstrap-editable.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\editor\\datetimepicker.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\editor\\datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\editor\\select2.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\editor\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\editor\\x-editor-style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\editor\\x-editor-style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\form\\all-type-forms.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\form\\all-type-forms.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\form\\themesaller-forms.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\form\\themesaller-forms.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\ionRangeSlider\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\ionRangeSlider\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\ionRangeSlider\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\ionRangeSlider\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\ionRangeSlider\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\metisMenu\\metisMenu-vertical.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\metisMenu\\metisMenu-vertical.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\metisMenu\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\metisMenu\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\modals.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\modals.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\morrisjs\\morris.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\morrisjs\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\nalika-icon.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\nalika-icon.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\notifications\\Lobibox.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\notifications\\Lobibox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\notifications\\notifications.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\notifications\\notifications.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\owl.transitions.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\owl.transitions.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\preloader\\preloader-style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\preloader\\preloader-style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\scrollbar\\jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\scrollbar\\jquery.mCustomScrollbar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\summernote\\fonts\\summernote.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\summernote\\fonts\\summernote.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\summernote\\fonts\\summernote.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\summernote\\fonts\\summernote.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\summernote\\fonts\\summernote.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\summernote\\fonts\\summernote.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\summernote\\summernote.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\summernote\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\tabs.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\tabs.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\touchspin\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\touchspin\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\tree-viewer\\32px.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\tree-viewer\\32px.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\tree-viewer\\throbber.gif",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\tree-viewer\\throbber.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\css\\tree-viewer\\tree-viewer.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\tree-viewer\\tree-viewer.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\nalika.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nalika.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\nalika.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nalika.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\fonts\\nalika.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\nalika.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\blog-details\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\blog-details\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\blog-details\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\blog-details\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\contact\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\contact\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\contact\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\contact\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\contact\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\contact\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\cropper\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\cropper\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\cropper\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\cropper\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\green1.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\green1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\logo\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\logo\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\logo\\logosn.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\logo\\logosn.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\16-home_default.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\16-home_default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\21-home_default.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\21-home_default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\5-small.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\5-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\5.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\6-small.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\6-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\6.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\7-small.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\7-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\90-home_default.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\90-home_default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\new-product\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\new-product\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\notification\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\notification\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\Thumbs.db",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\bg-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\bg-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\img\\product\\bg-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\product\\bg-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\c3-charts\\c3-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\c3-charts\\c3-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\c3-charts\\c3.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\c3-charts\\c3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\c3-charts\\d3.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\c3-charts\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\calendar\\fullcalendar-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\calendar\\fullcalendar-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\calendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\calendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\calendar\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\calendar\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\card.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\card.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\chart\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chart\\jquery.peity.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\chart\\peity-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chart\\peity-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\charts\\Chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\charts\\Chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\charts\\area-chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\charts\\area-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\charts\\bar-chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\charts\\bar-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\charts\\line-chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\charts\\line-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\charts\\rounded-chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\charts\\rounded-chart.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\chosen\\chosen-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chosen\\chosen-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\chosen\\chosen.jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chosen\\chosen.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\code-editor\\code-editor-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\code-editor\\code-editor-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\code-editor\\code-editor.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\code-editor\\code-editor.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\code-editor\\codemirror.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\code-editor\\codemirror.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\colorpicker\\color-picker-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\colorpicker\\color-picker-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\colorpicker\\jquery.spectrum.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\colorpicker\\jquery.spectrum.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\counterup\\counterup-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\counterup\\counterup-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\counterup\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\counterup\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\counterup\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\counterup\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\cropper\\cropper-actice.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\cropper\\cropper-actice.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\cropper\\cropper.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\cropper\\cropper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-map\\d3.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-map\\d3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-map\\data-maps-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-map\\data-maps-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-map\\datamaps.all.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-map\\datamaps.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-map\\topojson.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-map\\topojson.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\bootstrap-editable.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\bootstrap-table-editable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\bootstrap-table-editable.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\bootstrap-table-export.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\bootstrap-table-export.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\bootstrap-table-resizable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\bootstrap-table-resizable.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\bootstrap-table.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\bootstrap-table.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\colResizable-1.5.source.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\colResizable-1.5.source.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\data-table-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\data-table-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\data-table\\tableExport.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table\\tableExport.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\datapicker\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\datapicker\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\datapicker\\datepicker-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\datapicker\\datepicker-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\duallistbox\\duallistbox.active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\duallistbox\\duallistbox.active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\duallistbox\\jquery.bootstrap-duallistbox.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\duallistbox\\jquery.bootstrap-duallistbox.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\e-payment.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\e-payment.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\bootstrap-editable.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\bootstrap-editable.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\jquery.mockjax.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\jquery.mockjax.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\mock-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\mock-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\select2.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\editable\\xediable-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\editable\\xediable-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\curvedLines.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\curvedLines.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\flot-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\flot-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\jquery.flot.orderBars.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\jquery.flot.orderBars.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\google.maps\\google.maps-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\google.maps\\google.maps-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\icheck\\icheck-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\icheck\\icheck-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\icheck\\icheck.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\icheck\\icheck.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\input-mask\\jasny-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\input-mask\\jasny-bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\ionRangeSlider\\ion.rangeSlider.active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ionRangeSlider\\ion.rangeSlider.active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\ionRangeSlider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ionRangeSlider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\jquery-price-slider.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery-price-slider.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\jquery.meanmenu.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.meanmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\jquery.payform.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.payform.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\knob\\jquery.knob.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\knob\\jquery.knob.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\knob\\knob-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\knob\\knob-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\metisMenu\\metisMenu-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\metisMenu\\metisMenu-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\metisMenu\\metisMenu.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\metisMenu\\metisMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\morrisjs\\morris-active-pro.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\morrisjs\\morris-active-pro.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\morrisjs\\morris-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\morrisjs\\morris-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\morrisjs\\morris.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\morrisjs\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\morrisjs\\raphael-min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\morrisjs\\raphael-min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\notifications\\Lobibox.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\notifications\\Lobibox.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\notifications\\notification-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\notifications\\notification-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\password-meter\\password-meter-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\password-meter\\password-meter-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\password-meter\\pwstrength-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\password-meter\\pwstrength-bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\password-meter\\zxcvbn.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\password-meter\\zxcvbn.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\pdf\\jquery.media.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\pdf\\jquery.media.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\pdf\\pdf-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\pdf\\pdf-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\peity\\peity-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\peity\\peity-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\rangle-slider\\jquery-ui-1.10.4.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\rangle-slider\\jquery-ui-touch-punch.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\rangle-slider\\jquery-ui-touch-punch.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\rangle-slider\\rangle-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\rangle-slider\\rangle-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\scrollbar\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\scrollbar\\mCustomScrollbar-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\scrollbar\\mCustomScrollbar-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\select2\\select2-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\select2\\select2-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\sparkline\\jquery.charts-sparkline.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\sparkline\\jquery.charts-sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\sparkline\\sparkline-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\sparkline\\sparkline-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\summernote\\summernote-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\summernote\\summernote-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\summernote\\summernote.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\summernote\\summernote.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\tab.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\tab.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\touchspin\\jquery.bootstrap-touchspin.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\touchspin\\jquery.bootstrap-touchspin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\touchspin\\touchspin-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\touchspin\\touchspin-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\tree-line\\jstree.active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\tree-line\\jstree.active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\tree-line\\jstree.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\tree-line\\jstree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\wizard\\jquery.steps.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\wizard\\jquery.steps.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\wizard\\steps-active.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\wizard\\steps-active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\pdf\\mamunur.pdf",
+      "PackagePath": "staticwebassets\\admin\\assets\\pdf\\mamunur.pdf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\admin\\assets\\style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-bold.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-boldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-boldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demibold.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demibold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demiboldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demiboldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extrabold.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extrabold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extraboldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extraboldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavy.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavy.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavyoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavyoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-light.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-light.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-lightoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-lightoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-medium.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-mediumoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-mediumoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regular.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regularoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regularoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thin.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thinoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thinoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\css\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Fontspring-DEMO-visbycf-light.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Fontspring-DEMO-visbycf-light.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Fontspring-DEMO-visbycf-regularoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Fontspring-DEMO-visbycf-regularoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-bold.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-boldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-boldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demibold.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demibold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demiboldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-demiboldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extrabold.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extrabold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extraboldoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-extraboldoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavy.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavy.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavyoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-heavyoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-light.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-light.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-lightoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-lightoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-medium.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-mediumoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-mediumoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regular.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regularoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-regularoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thin.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thin.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thinoblique.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\Visby-CF\\Demo_Fonts\\Fontspring-DEMO-visbycf-thinoblique.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\VisbyBold.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\VisbyBold.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\VisbyLight.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\VisbyLight.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\VisbyMedium.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\VisbyMedium.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\font\\VisbyRegular.otf",
+      "PackagePath": "staticwebassets\\assets\\font\\VisbyRegular.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\cocktail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\cocktail.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\detail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\detail.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\detailSet.js",
+      "PackagePath": "staticwebassets\\assets\\js\\detailSet.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\events.js",
+      "PackagePath": "staticwebassets\\assets\\js\\events.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\giftcards.js",
+      "PackagePath": "staticwebassets\\assets\\js\\giftcards.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\header.js",
+      "PackagePath": "staticwebassets\\assets\\js\\header.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\CreateCocktail\\e6c683f2cc2eae92f8c0df152a837482@2x 1.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\CreateCocktail\\e6c683f2cc2eae92f8c0df152a837482@2x 1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Ellipse 3.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Ellipse 3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Ellipse 34.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Ellipse 34.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 16.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 17 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 17 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 4 (1).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 4 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 4 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 4 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 4 (3).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 4 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Detail\\Rectangle 4.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Detail\\Rectangle 4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\DjMusic\\Default.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\DjMusic\\Default.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\DjMusic\\Group 17.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\DjMusic\\Group 17.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\DjMusic\\Mask group.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\DjMusic\\Mask group.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\DjMusic\\Maya Aziz & Lost Algorithm -Humanoid(FABRIK020).mp4",
+      "PackagePath": "staticwebassets\\assets\\photos\\DjMusic\\Maya Aziz & Lost Algorithm -Humanoid(FABRIK020).mp4"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Email\\giphy.gif",
+      "PackagePath": "staticwebassets\\assets\\photos\\Email\\giphy.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\GifCard\\Rectangle 17 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\GifCard\\Rectangle 17 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\GifCard\\black.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\GifCard\\black.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\GifCard\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\GifCard\\pink.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\GifCard\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\GifCard\\yellow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\ParnterGreyGoose.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\ParnterGreyGoose.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\ParnterM.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\ParnterM.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\PartnerBacardi.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\PartnerBacardi.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\PartnerEmmys.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\PartnerEmmys.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Product.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Product4.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Rectangle 3.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Rectangle 3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Rectangle 4.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Rectangle 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Rectangle 5.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Rectangle 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Rectangle 9.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Rectangle 9.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Slider\\213Rectangle 43.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Slider\\213Rectangle 43.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Slider\\484Rectangle4.JPG.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Slider\\484Rectangle4.JPG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Slider\\876popularslider1.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Slider\\876popularslider1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\Slider\\919Rectangle 4.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\Slider\\919Rectangle 4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\instagram.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\product2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\tiktok.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\tiktok.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Home\\youtube.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Home\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\OurStory\\OurStory.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\OurStory\\OurStory.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\Rectangle 16 (1).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\Rectangle 16 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\Rectangle 16 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\Rectangle 16 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\Rectangle 16 (3).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\Rectangle 16 (3).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\Rectangle 16.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\Rectangle 16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\Rectangle 17 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\Rectangle 17 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\fasle.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\fasle.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\PartySet\\partySet.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\PartySet\\partySet.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\135Frosé Recipe.webp",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\135Frosé Recipe.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\147cucumber-mint-gin-fizz-recipe.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\147cucumber-mint-gin-fizz-recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\20Strawberry-Mojitosfalse.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\20Strawberry-Mojitosfalse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\287cucumber-and-gin-fizz-142669-1(false).jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\287cucumber-and-gin-fizz-142669-1(false).jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\28Rectangle 16.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\28Rectangle 16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\31Beet and Aquavit Bloody Mary.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\31Beet and Aquavit Bloody Mary.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\31HomemadeCoctailBilters.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\31HomemadeCoctailBilters.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\323berry(False).jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\323berry(False).jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\328306473-800x533-blood-sand-cocktailFalse.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\328306473-800x533-blood-sand-cocktailFalse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\49berry-vodka-smash2-1000x1250.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\49berry-vodka-smash2-1000x1250.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\520Beet and Aquavit Bloody Maryfalse.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\520Beet and Aquavit Bloody Maryfalse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\521Hanky-Panky-Cocktail-with-Black-Background-1024x997.jpg.webp",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\521Hanky-Panky-Cocktail-with-Black-Background-1024x997.jpg.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\529Rectangle 17 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\529Rectangle 17 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\562Frosé Recipefalse.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\562Frosé Recipefalse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\567Rectangle 16.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\567Rectangle 16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\625Strawberry Mojito.webp",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\625Strawberry Mojito.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\628tart-n-sand-720x720-primary-2dceb1b196d4450c9eac06fb5a57753a.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\628tart-n-sand-720x720-primary-2dceb1b196d4450c9eac06fb5a57753a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\655_cardinal-punch-recipe-non-alcoholic-759634-04-5bd31f74c9e77c0051d31b2b.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\655_cardinal-punch-recipe-non-alcoholic-759634-04-5bd31f74c9e77c0051d31b2b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\682Rectangle 17 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\682Rectangle 17 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\70tart-n-sand-720x720-primary-2dceb1b196d4450c9eac06fb5a57753a.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\70tart-n-sand-720x720-primary-2dceb1b196d4450c9eac06fb5a57753a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\756cardinalpunch(false).jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\756cardinalpunch(false).jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\770Homemade Cocktail Bitters false.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\770Homemade Cocktail Bitters false.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\881Jungle Bird Cocktail.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\881Jungle Bird Cocktail.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\89306473-800x533-blood-sand-cocktailFalse.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\89306473-800x533-blood-sand-cocktailFalse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\947Article2-Mastering-the-Jungle-Bird-Cocktail-Recipe-Fanny-Chu.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\947Article2-Mastering-the-Jungle-Bird-Cocktail-Recipe-Fanny-Chu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\989hanky-panky-cocktail-false.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\989hanky-panky-cocktail-false.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Recipes\\Ulviye.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\Recipes\\Ulviye.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\RegisterLogin\\Rectangle 908.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\RegisterLogin\\Rectangle 908.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\RegisterLogin\\check.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\RegisterLogin\\check.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\RegisterLogin\\login.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\RegisterLogin\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\150PartnerBacardi.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\150PartnerBacardi.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\17logo.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\17logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\195youtube.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\195youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\220instagram.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\220instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\474tiktok.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\474tiktok.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\492ParnterGreyGoose.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\492ParnterGreyGoose.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\65ParnterM.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\65ParnterM.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\Setting\\917PartnerEmmys.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\Setting\\917PartnerEmmys.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\loqo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\loqo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\loqo\\logoblack.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\loqo\\logoblack.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\10349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\10349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\110308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\110308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\133WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\133WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\194WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\194WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\207WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\207WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\232WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\232WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\241369890.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\241369890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\246WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\246WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\261349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\261349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\261WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\261WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\334349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\334349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\350WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\350WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\369WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\369WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\371349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\371349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\390aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\390aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\408349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\408349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\443WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\443WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\456349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\456349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\460349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\460349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\479349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\479349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\483WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\483WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\510827unnamed.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\510827unnamed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\524308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\524308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\532308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\532308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\53308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\53308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\533827unnamed.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\533827unnamed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\53aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\53aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\540WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\540WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\542WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\542WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\545aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\545aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\572WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\572WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\581349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\581349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\592aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\592aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\633349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\633349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\64574095F67-05B1-45C1-B0DF-5A3DF2D064A7.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\64574095F67-05B1-45C1-B0DF-5A3DF2D064A7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\646308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\646308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\652aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\652aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\65308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\65308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\666lalee.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\666lalee.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\674WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\674WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\684349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\684349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\684lale.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\684lale.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\691349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\691349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\692WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\692WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\696308841490_656598946004030_8061826086378681496_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\696308841490_656598946004030_8061826086378681496_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\699349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\699349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\704WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\704WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\714aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\714aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\741349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\741349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\74WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\74WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\752aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\752aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\769349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\769349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\814349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\814349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\820349180259_1642187899634171_2578617063905121229_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\820349180259_1642187899634171_2578617063905121229_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\822WhatsApp Image 2023-06-06 at 15.25.45.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\822WhatsApp Image 2023-06-06 at 15.25.45.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\830aysu.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\830aysu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\887WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\887WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\996WhatsApp Image 2023-05-18 at 00.15.01.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\996WhatsApp Image 2023-05-18 at 00.15.01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\HD-wallpaper-mojito-drink-lemon-mint-ice-thumbnail.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\HD-wallpaper-mojito-drink-lemon-mint-ice-thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\Rectangle 908.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\Rectangle 908.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\best-cocktails-recipes-luxe-digital.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\best-cocktails-recipes-luxe-digital.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\egg-white-cocktail.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\egg-white-cocktail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\istockphoto-917737514-612x612.jpg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\istockphoto-917737514-612x612.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\photo-1514362545857-3bc16c4c7d1b.jpeg",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\photo-1514362545857-3bc16c4c7d1b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\myAccount\\reset.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\myAccount\\reset.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\131Rectangle 43.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\131Rectangle 43.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\260Rectangle 40.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\260Rectangle 40.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\PartnerEvents.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\PartnerEvents.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\Rectangle 16 (1).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\Rectangle 16 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\Rectangle 16 (2).png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\Rectangle 16 (2).png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\Rectangle 16.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\Rectangle 16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\Rectangle 39.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\Rectangle 39.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\photos\\partyEvents\\Rectangle 41.png",
+      "PackagePath": "staticwebassets\\assets\\photos\\partyEvents\\Rectangle 41.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\template\\EmailTemplate.html",
+      "PackagePath": "staticwebassets\\assets\\template\\EmailTemplate.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\template\\canceledRecipes.html",
+      "PackagePath": "staticwebassets\\assets\\template\\canceledRecipes.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\template\\forgotPassword.html",
+      "PackagePath": "staticwebassets\\assets\\template\\forgotPassword.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\template\\htmlpage.html",
+      "PackagePath": "staticwebassets\\assets\\template\\htmlpage.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\assets\\template\\resetPassword.html",
+      "PackagePath": "staticwebassets\\assets\\template\\resetPassword.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\dist\\jquery-unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery-unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\jquery\\dist\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TheFruityMixologist.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TheFruityMixologist.props",
+      "PackagePath": "build\\TheFruityMixologist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TheFruityMixologist.props",
+      "PackagePath": "buildMultiTargeting\\TheFruityMixologist.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TheFruityMixologist.props",
+      "PackagePath": "buildTransitive\\TheFruityMixologist.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

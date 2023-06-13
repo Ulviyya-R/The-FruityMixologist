@@ -1,0 +1,176 @@
+﻿@model TheFruityMixologist.ViewModels.RecipeVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>RecipeVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MainPhoto" class="control-label"></label>
+                <input asp-for="MainPhoto" class="form-control"  accept="image/*">
+                <span asp-validation-for="MainPhoto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FalseImages" class="control-label"></label>
+                <input asp-for="FalseImages" class="form-control"  accept="image/*">
+                <span asp-validation-for="FalseImages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiscountPrice" class="control-label"></label>
+                <input asp-for="DiscountPrice" class="form-control" />
+                <span asp-validation-for="DiscountPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Desc" class="control-label"></label>
+                <input asp-for="Desc" class="form-control" />
+                <span asp-validation-for="Desc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryIds" class="control-label"></label>
+                <select asp-for="CategoryIds" asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))" class="form-control"></select>
+                <span asp-validation-for="CategoryIds" class="text-danger"></span>
+            </div>
+            <div class="form-group">    
+                    <div class="adding step_add">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="steps_input">
+                                    <input type="text"
+                                           class="form-control inputs add_input_step"
+                                           placeholder="Write steps" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="add_del_btn">
+                                <button class="add_btn stepAdd"><i class="bi bi-plus-circle-fill"></i></button>
+                                <button class="del_btn stepDel"><i class="bi bi-dash-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                            <div class="steps_input">
+                                    <input asp-for="Steps"
+                                           class="form-control inputs hiddenInput w-100"
+                                           readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                        <div class="form-group">    
+                    <div class="addstep ing_add">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="ing_input">
+                                    <input type="text"
+                                           class="form-control inputs add_input_ing"
+                                           placeholder="Write Ingredients" />
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="add_del_btn">
+                                <button class="add_btn ingAdd"><i class="bi bi-plus-circle-fill"></i></button>
+                                <button class="del_btn ingDel"><i class="bi bi-dash-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                            <div class="ing_input">
+                                    <input asp-for="Ingredients"
+                                           class="form-control inputs hiddenInputIng w-100"
+                                           readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+   
+@section Scripts{
+    <script>
+
+        var StepAdd = document.querySelector('.stepAdd');
+        var StepDel = document.querySelector('.stepDel');
+        var step_add = document.querySelector('.step_add');
+      var hidden_Input = document.querySelector('.hiddenInput');
+
+        StepAdd.addEventListener('click', function (e) {
+          e.preventDefault();
+            var addInput = step_add.querySelector('.add_input_step');
+        var newInputValue = addInput.value.trim();
+        if (newInputValue !== '') {
+                var currentValue = hidden_Input.value.trim();
+          var separator = currentValue === '' ? '' : '/';
+                hidden_Input.value = currentValue + separator + newInputValue;
+          addInput.value = '';
+        }
+      });
+
+        StepDel.addEventListener('click', function (e) {
+          e.preventDefault();
+            var currentValue = hidden_Input.value.trim();
+          if (currentValue !== '') {
+            var values = currentValue.split('/');
+            var newValues = values.slice(0, -1);
+                hidden_Input.value = newValues.join('/');
+          }
+        });
+
+        var IngAdd = document.querySelector('.ingAdd');
+        var IngDel = document.querySelector('.ingDel');
+        var ing_add = document.querySelector('.ing_add');
+        var hidden_Input_Ing = document.querySelector('.hiddenInputIng');
+
+        IngAdd.addEventListener('click', function (e) {
+            e.preventDefault();
+            var addInput = ing_add.querySelector('.add_input_ing');
+            var newInputValue = addInput.value.trim();
+            if (newInputValue !== '') {
+                var currentValue = hidden_Input_Ing.value.trim();
+                var separator = currentValue === '' ? '' : '/';
+                hidden_Input_Ing.value = currentValue + separator + newInputValue;
+                addInput.value = '';
+            }
+        });
+
+        IngDel.addEventListener('click', function (e) {
+            e.preventDefault();
+            var currentValue = hidden_Input_Ing.value.trim();
+            if (currentValue !== '') {
+                var values = currentValue.split('/');
+                var newValues = values.slice(0, -1);
+                hidden_Input_Ing.value = newValues.join('/');
+            }
+        });
+
+        
+    </script>
+
+    }
+

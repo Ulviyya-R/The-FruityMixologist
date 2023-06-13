@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "VisbyBold";
+  src: url("../font/VisbyBold.otf");
+}
+@font-face {
+  font-family: "Visby";
+  src: url("../font/VisbyMedium.otf");
+}
+
+body {
+  main {
+    #Login {
+      .image {
+        height: 589px;
+        img {
+          height: 100%;
+        }
+      }
+      .login {
+        height: 589px;
+        margin-left: -24px;
+        background-color: #ebeae6;
+        .center {
+          padding-top: 60px;
+          .logo {
+            padding-top: 60px;
+            width: 220px;
+            height: 43.98px;
+          }
+          .title {
+            font-size: 32px;
+            line-height: 34px;
+            color: #525666;
+            font-family: VisbyBold;
+            padding-top: 65px;
+          }
+          label {
+            font-size: 14px;
+            line-height: 18px;
+            color: #777c90;
+          }
+          input {
+            background-color: transparent;
+            border: 1px solid #707070;
+            color: black;
+            border-radius: 8px;
+            width: 445px;
+            height: 54px;
+            padding: 12px 16px;
+            margin-bottom: 10px;
+          }
+          .clearfix {
+            display: flex;
+            .check {
+              margin-right: 10px;
+              width: 22px;
+              height: 22px;
+            }
+          }
+          button {
+            margin-top: 20px;
+            margin-left: 40px;
+            width: 368px;
+            height: 60px;
+            padding: 18px 42px;
+            background: #ed0039;
+            border-radius: 8px;
+            a {
+              font-size: 18px;
+              text-decoration: none;
+              line-height: 24px;
+              text-align: center;
+              color: #ffffff;
+            }
+          }
+          .haveAccount {
+            padding-top: 30px;
+            text-align: center;
+            margin-right: 125px;
+            span {
+              font-size: 18px;
+              line-height: 24px;
+              color: #777c90;
+              a {
+                text-decoration: none;
+                font-size: 18px;
+                line-height: 22px;
+                color: #0a0a0a;
+              }
+            }
+          }
+        }
+        .forgotPassword {
+          padding-top: 10px;
+          text-align: center;
+          margin-right: 130px;
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 22px;
+            color: #0a0a0a;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 390px) and (max-width: 820px) {
+    main {
+      #Login {
+        .col-lg-6 {
+          padding-right: 0px;
+          padding-left: 0px;
+        }
+        .image {
+          height: auto;
+        }
+        .login {
+          height: auto;
+          .center {
+            margin-left: 55px;
+            padding-top: 0px;
+            .title {
+              font-size: 24px;
+              line-height: 26px;
+              padding-top: 40px;
+            }
+
+            input {
+              width: 320px;
+            }
+
+            button {
+              margin-left: 0px;
+              width: 320px;
+
+              a {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+
+            .haveAccount {
+              text-align: center;
+              padding-top: 20px;
+              margin-right: 0px;
+              span {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+
+            .forgotPassword {
+              text-align: center;
+              padding-top: 10px;
+              margin-right: 0;
+              padding-bottom: 25px;
+
+              a {
+                font-size: 16px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

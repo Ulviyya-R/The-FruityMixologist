@@ -1,0 +1,239 @@
+﻿@using TheFruityMixologist.ViewModels.Order
+@inject TheFruityMixologist.Services.LayoutService layoutService
+@model OrderVM
+@{
+    var total = layoutService.ShowBasket().TotalPrice;
+    List<gifCart> user = ViewBag.Users;
+}
+@section Css{
+    <style>
+    .webkit-scrollbar {
+        width: 3px;
+    }
+
+    .webkit-scrollbar-thumb {
+        background-color: #007bff;
+        border: 3px solid #007bff;
+    }
+    </style>
+}
+<main>
+    <form asp-controller="Order" asp-action="Checkout" method="post">
+    <div class="holder">
+        <div class="container">
+            <h2 class="text-center">Checkout page</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Shipping Address</h2>
+                          
+                            <div class="d-flex mt-2">
+                                <div class="FirstName me-4">
+                                    <div class="form-group" style="width: 200px;">
+                                        <label asp-for="Fullname">Fullname:</label>
+                                        <input asp-for="Fullname" type="text" class="form-control form-control--sm">
+                                            <span asp-validation-for="Fullname" class="text text-danger"></span>
+
+                                    </div>
+                                </div>
+                                <div class="LastName">
+                                    <div class="form-group" style="width: 200px;">
+                                        <label asp-for="Username">Username:</label>
+                                        <input asp-for="Username" type="text" class="form-control form-control--sm">
+									<span asp-validation-for="Username" class="text text-danger"></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-2"></div>
+                                <div class="form-group" style="width: 425px !important;">
+                                    <label asp-for="Email">Email:</label>
+                                    <input asp-for="Email" type="text" class="form-control form-control--sm">
+									<span asp-validation-for="Email" class="text text-danger"></span>
+                                </div>
+                            <div class="d-flex">
+                                <div class="State me-4">
+                                    <div class="form-group select-wrapper" style="width: 200px;">
+                                        <label asp-for="Address">Address:</label>
+                                        <input asp-for="Address" class="form-control form-control--sm">
+									<span asp-validation-for="Address" class="text text-danger"></span>
+                                    </div>
+                                </div>
+                                    <div class="form-group select-wrapper" style="width: 200px;">
+                                        <label asp-for="Country">Country:</label>
+                                        <input asp-for="Country" class="form-control form-control--sm">
+									<span asp-validation-for="Country" class="text text-danger"></span>
+                                    </div>
+                            </div>
+                            <div class="mt-2"></div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2 mt-md-0">
+
+                    <div class="mt-2"></div>
+
+                    <div class="card" style="margin-top: 60px;">
+                        <div class="card-body">
+                            <h5 style="text-align: left;">Order Comment</h5>
+                            <textarea asp-for="Note" class="form-control form-control--sm textarea--height-200" placeholder="Place your comment here"></textarea>
+								<span asp-validation-for="Note" class="text-danger"></span>
+                            <div class="card-text-info mt-2">
+                                    <p>* Write your order notes here.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3"></div>
+            <h2 class="custom-color" style="text-align: center; margin-top: 55px;">Order Summary</h2>
+            <section id="Cart">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="title">Product</div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="title">Name</div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="title">Quantity</div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="title">Price</div>
+                        </div>
+
+                        <div class="products">
+                            @foreach(BasketItem item in Model.BasketItems){
+                                    <div class="product">
+                                        <div class="col-3">
+                                            <div class="product-image">
+                                                <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Recipe.Id">
+                                                    <img style="width: 100%"
+                                                     src="~/assets/photos/Recipes/@item.Recipe.RecipesImages.FirstOrDefault(ri=>ri.IsMain==true)?.Path" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product-name">
+                                                <span>@item.Recipe.Name</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product-quantity">
+                                                <span class="product-quantity">@item.Count</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3">
+                                            <div class="product-price">
+                                                <span>$@item.Recipe.Price</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                            }
+                         
+                            @foreach (gifCart item in Model.gifCarts.Where(g=>g.status==TheFruityMixologist.Utilities.Enum.OrderStatus.Default))
+                            {
+                                <div class="product">
+                                    <div class="col-3">
+                                            <div class="product-image">
+                                            <a>
+                                                <img width="100%" src="~/assets/photos/GifCard/@item.GiftCartColor.ImagePath" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                            <div class="product-name">
+                                            <span>@item.GiftCartColor.Color</span>
+                                        </div>
+                                    </div>
+                                        <div class="col-3">
+                                            <div class="product-quantity">
+                                                <span class="product-quantity">1</span>
+                                            </div>
+                                        </div>
+
+                                    <div class="col-3">
+                                        <div class="product-price">
+                                            <span>$@item.PriceOption.Amount</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            }
+                            </div>
+
+                            
+
+
+                  
+                </div>
+            </section>
+             
+                 
+                <div class="container">
+                    <div class="row">
+                             <div class="SuprizeCarts">
+                            @if (user.Any(u => u.status == TheFruityMixologist.Utilities.Enum.OrderStatus.Accepted))
+                            {
+                                <div class="warning-msg" style="color:black;background-color: #ed0039; height:45px;width: 267px; margin: 10px 0; padding: 10px; border-radius: 3px 3px 3px 3px;">
+                                    <i class="fa fa-info-circle"></i>
+                                    You Have a Surprise Card :)
+                                </div>
+                                <div class="row">
+                                @foreach (var item in user)
+                                {
+                                    <div class="cart-image" style="height:100px;margin-right:10px">
+                                        <a>
+                                            <div class="col-2" style="display:inline-block">
+                                                    <img width="100%" src="~/assets/photos/GifCard/@item.GiftCartColor.ImagePath" alt="">
+                                            </div>
+
+                                                <div class="col-3" style="display:inline-block">
+                                                    <p>@item.PriceOption.Amount</p>
+                                                </div>
+                                                <div class="col-3" style="display:inline-block; overflow-x:scroll">
+                                                    <p>@item.Message</p>
+                                                </div>
+                                                <div class="col-3" style="display:inline-block">
+                                                    <p>@item.User.UserName</p>
+                                            </div>
+                                           
+                                           
+
+                                        <input name="selectedColor" value="@item.Id"  type="checkbox" class="black_check " />
+
+                                        </a>
+                                    </div>
+                                }
+                                </div>
+                            }
+                    </div>
+                        <div class="totalOrderValue" style="padding-top:13px">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="total">
+                                        <span class="text">Total order value:</span>
+                                        <span class="price">$@total</span>
+                                    </div>
+                                    <div class="clearfix mt-2 PlaceHolder">
+                                        <button type="submit" class="btn btn--lg">Place Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+              </div>
+
+        </div>
+    </div>
+    </form>
+</main>
+

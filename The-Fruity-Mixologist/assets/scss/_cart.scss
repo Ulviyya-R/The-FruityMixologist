@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "VisbyBold";
+  src: url("../font/VisbyBold.otf");
+}
+@font-face {
+  font-family: "Visby";
+  src: url("../font/VisbyMedium.otf");
+}
+
+body {
+  main {
+    #Cart {
+      padding-top: 40px;
+      .header {
+        font-size: 40px;
+        line-height: 56px;
+      }
+      .title {
+        font-size: 18px;
+        line-height: 18px;
+        color: #707070;
+      }
+      .products {
+        .product {
+          display: flex;
+          padding-top: 30px;
+          border-bottom: 1px solid #c0c0c0;
+          .product-image {
+            width: 140px;
+            margin-bottom: 35px;
+            display: inline-block;
+          }
+          .product-name-quantity {
+            display: inline-block;
+            margin-left: 20px;
+            .product-name {
+              font-size: 20px;
+              line-height: 22px;
+              width: 214px;
+              height: 44px;
+              margin-right: 363px;
+            }
+            .product-quantity{
+              margin-bottom: 20px;
+            }
+          }
+          .product-price {
+            margin-left: 15px;
+            margin-top: 50px;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          .icons {
+            margin-left: 35px;
+            margin-top: 48px;
+          }
+        }
+      }
+
+      .totalOrderValue {
+        text-align: right;
+        .total {
+            padding-top: 20px;
+          .text {
+            font-size: 18px;
+            line-height: 18px;
+          }
+          .price {
+            font-family: VisbyBold;
+            font-size: 24px;
+            line-height: 30px;
+          }
+        }
+
+        .checkoutBut {
+            padding-top: 25px;
+            button{
+                padding: 15px 16px;
+                width: 184px;
+                height: 54px;
+                background: #ed0039;
+                border-radius: 8px;
+                span {
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #f2f2f2;
+                }
+            }
+         
+        }
+      }
+    }
+
+    #RelatedProducts {
+        padding-top: 75px;
+        padding-bottom: 45px;
+        .title {
+          font-family: VisbyBold;
+          font-size: 24px;
+          line-height: 30px;
+          margin-bottom: 10px;
+        }
+        .products {
+          .product {
+           
+           .productName{
+            padding-top: 10px;
+            font-size: 20px;
+line-height: 26px;
+           }
+           .price{
+            padding-top: 5px;
+           }
+          }
+        }
+      }
+  }
+}

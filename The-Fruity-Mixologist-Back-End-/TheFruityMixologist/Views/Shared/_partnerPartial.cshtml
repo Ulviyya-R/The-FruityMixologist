@@ -1,0 +1,20 @@
+﻿@inject TheFruityMixologist.Services.LayoutService layoutService
+
+@{
+    Dictionary<string, string> settings = layoutService.GetSettings();
+}
+
+
+<div class="partner">
+    <img src="~/assets/photos/Home/@settings["Company Logo1"]" alt="">
+    </div>
+<div class="partner">
+    <img src="~/assets/photos/Home/@settings["Company Logo2"]" alt="">
+</div>
+<div class="partner">
+    <img src="~/assets/photos/Home/@settings["Company Logo3"]" alt="">
+</div>
+<div class="partner">
+    <img src="~/assets/photos/Home/@settings["Company Logo4"]" alt="">
+</div>
+

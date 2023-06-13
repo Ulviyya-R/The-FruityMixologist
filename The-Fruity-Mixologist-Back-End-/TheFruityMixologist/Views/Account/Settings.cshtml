@@ -1,0 +1,59 @@
+﻿@model UserVM
+@{
+    ViewData["Title"] = "Settings";
+}
+@section Css{
+    <style>
+        input{
+            width:365px !important;
+        }
+        .settings{
+            display:flex;
+            justify-content:center;
+        }
+        .card{
+            width:510px;
+        }
+    </style>
+}
+<div class="settings">
+    <div class="card mt-3">
+    <div class="card-body">
+        <h3>Update Account Details</h3>
+        <form asp-controller="Account" asp-action="Settings" enctype="multipart/form-data" method="post">
+            <div class="user-photo">
+                <img class="primary-img" style="width:100px;height:100px; object-fit:contain"
+                     src="~/assets/photos/myAccount/@Model.Path"
+                     alt="User Image" />
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProfilePicture" class="control-label"></label>
+                <input asp-for="ProfilePicture" class="form-control" / accept="image/*">
+                <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+            </div>
+            <div class="row mt-2">
+                <div class="col-sm-9">
+                    <label class="text-uppercase">Username:</label>
+                    <div class="form-group">
+                        <input asp-for="Username" class="form-control form-control--sm" placeholder="@Model.Username">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <label class="text-uppercase">Fullname:</label>
+                    <div class="form-group">
+                        <input asp-for="Fullname" class="form-control form-control--sm" placeholder="@Model.Fullname">
+                    </div>
+                </div>
+            </div>
+          
+            <div class="mt-2">
+                <button type="reset" class="btn btn--alt js-close-form" data-form="#updateDetails">Cancel</button>
+                <!-- form fields here -->
+                <button type="submit" class="btn ml-1">Update</button>
+        </form>
+    </div>
+</div>
+
+</div>
+         

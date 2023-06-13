@@ -1,0 +1,214 @@
+﻿@model EventSliderVM
+@{
+    ViewData["Title"] = "Partner Events";
+    List<Setting> settings = ViewBag.PartnerPartial;
+}
+
+<main>
+    <section id="cocktailEvents">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="text">
+                        <div class="title">Take delight in our Cocktail Events</div>
+                        <div class="desc">
+                            Leave a lasting impression with our Cocktail style Menu that
+                            can be offered in any of The Fruity Mixologist's event spaces.
+                            <br /><br />
+                            The Fruity Mixologist's Canapes Menu and culinary Food & Wine
+                            Stations are sure to delight when a little indulgence is
+                            desired and deserved. Showcasing only the finest local produce
+                            and displayed with opulence in mind, it surely is a feast for
+                            the body and the mind.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="imagee">
+                        <img width="100%"
+                             src="~/assets/photos/partyEvents/PartnerEvents.png"
+                             alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Events">
+        <div class="container">
+            <div class="row">
+                @foreach(var item in Model.eventSliders)
+                {
+                    <div class="col-lg-4">
+
+                        <div class="eventDateNamePhoto">
+                            <div class="eventnumber">
+                                <span class="number">30+</span>
+                                <span class="event">Events</span>
+                            </div>
+                            <div class="eventDateName">
+                                <div class="date">
+                                    <span>@item.EventData</span>
+                                </div>
+                                <div class="eventName">@item.EventName</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                            <div class="eventImages responsiveEvent">
+                        @foreach(var images in item.eventSliderImages)
+                        {
+                               
+                                <div class="image">
+                                    <img width="100%"
+                                         src="~/assets/photos/partyEvents/@images.Path"
+                                         alt="" />
+                                </div>
+                        }
+                            </div>
+                    </div>
+                }
+               
+            </div>
+        </div>
+    </section>
+
+    <section id="DjPlayMusic">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="DjImg">
+                        <img width="100%"
+                             src="~/assets/photos/DjMusic/Group 17.png"
+                             alt="" />
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="playMusic">
+                        <div class="musicName">
+                            <span>Set #103 <br> Caasiopea Andromeda</span>
+                        </div>
+                        <div class="music">
+                            <div id="music-player">
+                                <button style="border-radius: 10%;" id="playButton" onclick="toggleAudio()">
+                                <i style="font-size: 26px;" id="playIcon" class="bi bi-play"></i>
+                            </div>
+                            <audio id="audio-player">
+                                <source src="~/assets/photos/DjMusic/Maya Aziz & Lost Algorithm -Humanoid(FABRIK020).mp4" type="audio/mpeg">
+                            </audio>
+
+                            <a asp-controller="Messages" asp-action="Index">
+                                <button type="submit">SSJAJS</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="information">
+                        <div class="title">World's leading cocktail conference</div>
+                        <div class="desc">
+                            There are many variations of passages of Lorem Ipsum
+                            available, but the majority have suffered alteration in some
+                            form, by injected humour, or randomised words which don't look
+                            even slightly believable.If you are going to use a passage of
+                            Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing hidden in the middle of text.
+                        </div>
+                        <div class="date">
+                            <span>April 21, 2023</span>
+                            |
+                            <span>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 22.75C6.07 22.75 1.25 17.93 1.25 12C1.25 6.07 6.07 1.25 12 1.25C17.93 1.25 22.75 6.07 22.75 12C22.75 17.93 17.93 22.75 12 22.75ZM12 2.75C6.9 2.75 2.75 6.9 2.75 12C2.75 17.1 6.9 21.25 12 21.25C17.1 21.25 21.25 17.1 21.25 12C21.25 6.9 17.1 2.75 12 2.75Z" fill="#A3A3A3" />
+                                    <path d="M15.71 15.93C15.58 15.93 15.45 15.9 15.33 15.82L12.23 13.97C11.46 13.51 10.89 12.5 10.89 11.61V7.51001C10.89 7.10001 11.23 6.76001 11.64 6.76001C12.05 6.76001 12.39 7.10001 12.39 7.51001V11.61C12.39 11.97 12.69 12.5 13 12.68L16.1 14.53C16.46 14.74 16.57 15.2 16.36 15.56C16.21 15.8 15.96 15.93 15.71 15.93Z" fill="#A3A3A3" />
+                                </svg>
+                                21:00
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Nextevent">
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    Next events
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="nextEvent">
+                        <div class="image">
+                            <img width="100%" src="~/assets/photos/partyEvents/Rectangle 16.png" alt="">
+                        </div>
+                        <div class="dateAddress">
+                            <div class="date">
+                                <span>March 14</span>
+                            </div>
+                            <div class="addr">
+                                <span>DEATH IN THE AFTERNOON Amazing Popular Cocktail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="nextEvent">
+                        <div class="image">
+                            <img width="100%" src="~/assets/photos/partyEvents/Rectangle 16 (1).png" alt="">
+                        </div>
+                        <div class="dateAddress">
+                            <div class="date">
+                                <span>March 14</span>
+                            </div>
+                            <div class="addr">
+                                <span>DEATH IN THE AFTERNOON Amazing Popular Cocktail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="nextEvent">
+                        <div class="image">
+                            <img width="100%" src="~/assets/photos/partyEvents/Rectangle 16 (2).png" alt="">
+                        </div>
+                        <div class="dateAddress">
+                            <div class="date">
+                                <span>March 14</span>
+                            </div>
+                            <div class="addr">
+                                <span>DEATH IN THE AFTERNOON Amazing Popular Cocktail</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text">
+                        Partners
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="partnersImg responsivePartner">
+                        @await Html.PartialAsync("_partnerPartial",settings)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  
+</main>
+

@@ -1,0 +1,17 @@
+﻿@model List<Recipe>
+    @foreach(Recipe recipe in Model)
+    {
+        <li class="list-group-item" style="margin-top:23px;margin-bottom25px;position:relative">
+        <a asp-controller="Shop" asp-action="Detail" asp-route-id="@recipe.Id" style="text-decoration:none">
+            <img style="width:70px;height:70px" src="~/assets/photos/Recipes/@recipe.RecipesImages.FirstOrDefault(ri=>ri.IsMain==true)?.Path" alt="@recipe.Name" class="js-prd-img lazyload fade-up">
+            <span style="color:black; text-decoration: none;font-size: 17px; margin-left:13px">
+            @recipe.Name
+            </span>
+            <span style="position: absolute;color:black; top: 41px;right: 223px;">
+            $@recipe.Price
+            </span>
+
+            </a>
+        </li>
+    }
+

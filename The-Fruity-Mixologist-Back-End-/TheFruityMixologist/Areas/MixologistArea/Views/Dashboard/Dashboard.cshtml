@@ -1,0 +1,127 @@
+﻿@model List<OrderItem>
+@inject TheFruityMixologist.Services.LayoutService layoutService;
+
+@{
+    ViewData["Title"] = "Dashboard";
+    List<Recipe> products = layoutService.GetRecipes();
+    List<Order> orders = layoutService.GetAllOrderItem();
+}
+
+<div class="row">
+    <div class="main-header" style="margin-top: 0px;">
+        <h4>Statistics</h4>
+        <ol class="breadcrumb breadcrumb-title breadcrumb-arrow">
+            <li class="breadcrumb-item">
+                <a asp-area="MixologistArea" asp-controller="Home" asp-action="Dashboard">
+                    <i class="icofont icofont-home"></i>
+                </a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#!"> Dashboard</a>
+            </li>
+        </ol>
+    </div>
+</div>
+
+@section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var categoryCtx = document.getElementById('categoryChart').getContext('2d');
+        var userCtx = document.getElementById('userChart').getContext('2d');
+
+        var categoryLabels = @Html.Raw(Json.Serialize(ViewBag.CategoryLabels));
+        var categoryData = @Html.Raw(Json.Serialize(ViewBag.CategoryData));
+
+        var userLabels = @Html.Raw(Json.Serialize(ViewBag.UserLabels));
+        var userData = @Html.Raw(Json.Serialize(ViewBag.UserData));
+
+        var categoryChart = new Chart(categoryCtx, {
+            type: 'doughnut',
+            data: {
+                labels: categoryLabels,
+                datasets: [{
+                    label: 'Product Count',
+                    data: categoryData,
+                    backgroundColor: [
+                        '#FF6384',
+                        '#36A2EB',
+                        '#FFCE56',
+                        '#4BC0C0',
+                        '#9966FF',
+                        '#FF9F40'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                var label = categoryLabels[context.dataIndex];
+                                var value = categoryData[context.dataIndex];
+                                return label + ': ' + value;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        var userChart = new Chart(userCtx, {
+            type: 'bar',
+            data: {
+                labels: userLabels,
+                datasets: [{
+                    label: 'Order Count',
+                    data: userData,
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            label: function (context) {
+                                var label = userLabels[context.dataIndex];
+                                var value = userData[context.dataIndex];
+                                return 'Order Count: ' + value;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Category Statistics</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="categoryChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">User Statistics</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="userChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿@model ValidateVM;
+<main>
+    <section id="CheckMessage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image">
+                        <img width="100%" src="~/assets/photos/RegisterLogin/check.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="check">
+                        <div class="center" style="margin-left: 65px;">
+                            <div class="title">Check your message</div>
+                            <p class="email">We sent an OTP code to <strong>@Model.Email</strong></p>
+                            <form method="post" asp-controller="account" asp-action="ResultOpt">
+                                <input type="text" asp-for="@Model.Opt" placeholder="0000" /> <br />
+                                <input hidden type="text" asp-for="@Model.Email" placeholder="0000" /> <br />
+                                <button type="submit">Verify Code</button>
+                            </form>
+                            <div class="repeat">
+                                <span>Didn’t receive the code? <a href="/Account/ResendCode">Click to resend</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

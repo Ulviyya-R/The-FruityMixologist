@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "VisbyBold";
+    src: url("../font/VisbyBold.otf");
+  }
+  @font-face {
+    font-family: "Visby";
+    src: url("../font/VisbyMedium.otf");
+  }
+main{
+    font-family: Visby;
+    .holder {
+        .container {
+          text-align: center;
+          padding: 20px;
+      
+          .text-center {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+      
+          .row {
+            .col-md-6 {
+              .card {
+                background: none;
+                border: none;
+                .card-body {
+                  h2 {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                  }
+      
+                  p {
+                    text-align: left;
+
+                    a {
+                      color: #007bff;
+                      text-decoration: none;
+      
+                      &:hover {
+                        text-decoration: underline;
+                      }
+                    }
+                  }
+      
+                  .mt-2 {
+                    margin-top: 20px;
+                  }
+      
+                  label {
+                    display: block;
+                    font-weight: bold;
+                    margin-top: 10px;
+                    text-align: left;
+                  }
+      
+                  .form-group {
+                    margin-bottom: 10px;
+      
+                    .form-control {
+                      width: 100%;
+                      padding: 8px;
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                    }
+                  }
+      
+                  .select-wrapper {
+                    select {
+                      width: 100%;
+                      padding: 8px;
+                      border: 1px solid #ccc;
+                      border-radius: 4px;
+                    }
+                  }
+      
+                  .clearfix {
+                    margin-top: 10px;
+      
+                    input[type="checkbox"] {
+                      display: inline-block;
+                      vertical-align: middle;
+                      margin-right: 5px;
+                    }
+      
+                    label {
+                      display: inline-block;
+                      vertical-align: middle;
+                    }
+                  }
+                }
+              }
+            }
+      
+            .col-md-9.mt-2.mt-md-0 {
+              .mt-2 {
+                margin-top: 20px;
+              }
+      
+              .card {
+                .card-body {
+                  h3 {
+                    font-size: 18px;
+                  }
+      
+                  .form-control.textarea--height-200 {
+                    height: 200px;
+                  }
+      
+                  .card-text-info {
+                    margin-top: 10px;
+      
+                    p {
+                      font-size: 14px;
+                      color: #777;
+                    }
+                  }
+                }
+              }
+            }
+          }
+      
+          .mt-3 {
+            margin-top: 30px;
+          }
+      
+          #Cart {
+            padding-top: 40px;
+            .header {
+              font-size: 40px;
+              line-height: 56px;
+            }
+            .title {
+              font-size: 18px;
+              line-height: 18px;
+              color: #707070;
+            }
+            .products {
+              .product {
+                display: flex;
+                padding-top: 30px;
+                border-bottom: 1px solid #c0c0c0;
+                .product-image {
+                  width: 140px;
+                  height: 175px;
+                  display: inline-block;
+                }
+                  .product-name {
+                    margin-left: 15px;
+                    margin-top: 50px;
+                    font-size: 24px;
+                    line-height: 28px;  
+                  }
+                  .product-quantity{
+                    margin-left: 15px;
+                    margin-top: 50px;
+                    font-size: 24px;
+                    line-height: 28px;  
+                  }
+                  .product-price {
+                      margin-left: 15px;
+                      margin-top: 50px;
+                      font-size: 24px;
+                      line-height: 28px;
+                    }
+                    
+                }
+                }
+            }
+      
+            .totalOrderValue {
+              text-align: right;
+              .total {
+                  padding-top: 20px;
+                .text {
+                  font-size: 18px;
+                  line-height: 18px;
+                }
+                .price {
+                  font-family: VisbyBold;
+                  font-size: 24px;
+                  line-height: 30px;
+                }
+              }
+      
+              .PlaceHolder {
+                  padding-top: 25px;
+                  button{
+                      padding: 15px 16px;
+                      width: 255px;
+                      height: 54px;
+                      background: #ed0039;
+                      border-radius: 8px;
+                      span {
+                        font-size: 18px;
+                        line-height: 24px;
+                        color: #f2f2f2;
+                      }
+                  }
+               
+              }
+            }
+          } 
+}
+    }

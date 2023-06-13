@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TheFruityMixologist
+build_property.RootNamespace = TheFruityMixologist
+build_property.ProjectDir = C:\Users\user\Desktop\TheFruityMixologist\The-Fruity-Mixologist-Back-End-\TheFruityMixologist\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\TheFruityMixologist\The-Fruity-Mixologist-Back-End-\TheFruityMixologist
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/AdminLogin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQWRtaW5Mb2dpblxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/AdminLogin/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQWRtaW5Mb2dpblxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Dashboard/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRGFzaGJvYXJkXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/EventSlider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRXZlbnRTbGlkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/EventSlider/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRXZlbnRTbGlkZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/EventSlider/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRXZlbnRTbGlkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/EventSlider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRXZlbnRTbGlkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/EventSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcRXZlbnRTbGlkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Order/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcT3JkZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/PopularSlider/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUG9wdWxhclNsaWRlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/PopularSlider/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUG9wdWxhclNsaWRlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/PopularSlider/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUG9wdWxhclNsaWRlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/PopularSlider/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUG9wdWxhclNsaWRlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/PopularSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUG9wdWxhclNsaWRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Recipes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUmVjaXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Recipes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUmVjaXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Recipes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUmVjaXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Recipes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUmVjaXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Recipes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcUmVjaXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Settings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2V0dGluZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Settings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2V0dGluZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Settings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2V0dGluZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Settings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2V0dGluZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Settings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2V0dGluZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Areas/MixologistArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWl4b2xvZ2lzdEFyZWFcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/CheckMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/MyAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxNeUFjY291bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Account/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXR0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/CreateCocktail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29ja3RhaWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Error/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Gifcart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lmY2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Messages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/OurStory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3VyU3RvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/PartnerEvents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lckV2ZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_BasketRecipesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXNrZXRSZWNpcGVzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_HomeRecipePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lUmVjaXBlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_partnerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wYXJ0bmVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_RecipesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWNpcGVzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_RelatedRecipes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWxhdGVkUmVjaXBlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_SearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shared/_UserSearchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyU2VhcmNoUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shop/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/Shop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/TheFruityMixologist/The-Fruity-Mixologist-Back-End-/TheFruityMixologist/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

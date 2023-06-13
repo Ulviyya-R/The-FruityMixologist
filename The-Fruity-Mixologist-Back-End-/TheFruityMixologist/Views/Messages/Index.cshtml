@@ -1,0 +1,155 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<TheFruityMixologist.Entities.Message>
+@inject UserManager<User> UserManager
+@{
+    ViewData["Title"] = "Home Page";
+    var userName = User.Identity.Name;
+}
+
+
+<main>
+
+    <div class="container">
+        <div class="jumbotron" style="overflow-y:scroll; overflow-x:hidden; background-color:#0a0a0a; height:495px;width:65%; margin-left:250px;border-radius:2%;padding-top:35px">
+            <h2 class="text-center text-primary" style="padding-bottom:20px">
+                <i class="fab fa-facebook-messenger"></i>&nbsp; Chat
+            </h2>
+
+            <div class="row">
+                <div class="col-md-12" id="chat">
+                    @if (Model != null)
+                    {
+                        @foreach (var message in Model.OrderBy(m => m.When))
+                        {
+                            string containerClass, timePosition, textAlign, contcolor, offset;
+                            if (userName == message.Username)
+                            {
+                                containerClass = "container darker";
+                                timePosition = "time-right text-light";
+                                textAlign = "text-right text-white";
+                                contcolor = "bg-primary";
+                                offset = "col-md-6 offset-md-6 pb-4";
+                            }
+                            else
+                            {
+                                containerClass = "container";
+                                timePosition = "time-left";
+                                textAlign = "text-left";
+                                contcolor = "bg-secondary";
+                                offset = "col-md-6 pb-4";
+                            }
+
+                            <div class="row">
+                                <div class="@offset">
+                                    <div class="@containerClass @contcolor">
+                                        @{
+                                            User user = await UserManager.FindByNameAsync(message.Username);
+                                            var userId = await UserManager.GetUserIdAsync(user);
+                                        }
+
+                                        <div class="UserNamePhoto d-flex" style="padding-top:20px; padding-bottom:9px">
+                                            <img class="primary-img" style="width:100px;height:100px; border-radius:65px; object-fit:contain"
+                                                 src="~/assets/photos/myAccount/@user.Path"
+                                                 alt="User Image" />
+                                            <p class="@textAlign" style="position:relative; top:40px;left:19px">@message.Text</p>
+                                        </div>
+                                        <p class="sender @textAlign" style="margin-left:20px">@user.UserName</p>
+                                        <span class="@timePosition">@message.When.ToString("M/dd/yyyy hh:MM tt")</span>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <form asp-controller="Messages" asp-action="Create"
+                  data-ajax-begin="clearInputField" data-ajax-complete=""
+                  data-ajax-failure="alert('Fail')" data-ajax-success="sendMessage"
+                  data-ajax="true" data-ajax-method="POST">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group TextDivInp" style="display:inline-flex">
+                    <input name="text" class="form-control" id="messageText" style="width:985px;height:40px" />
+                </div>
+                <div class="form-group" style="display:inline-block">
+                    <input type="submit" value="Send" id="submitButton" class="btn btn-outline-primary btn-block" />
+                </div>
+                <input type="hidden" value="@userName" />
+            </form>
+        </div>
+
+    </div>
+</main>
+@if (User.Identity.IsAuthenticated)
+{
+    <script>
+        const userName = "@ViewBag.CurrentUserName";
+    </script>
+}
+
+@section Scripts {
+    <script src="/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="/lib/jquery/dist/jquery-unobtrusive-ajax.min.js"></script>
+    <script src="~/assets/js/chat.js"></script>
+    <script src="~/assets/js/signrReqHandler.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        function refreshPage() {
+            location.reload(true); 
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector("form").addEventListener("submit", function () {
+                refreshPage();
+            });
+
+            document.querySelector("form").addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                var messageText = document.querySelector("#messageText").value;
+
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", "/Messages/Create", true);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        refreshPage();
+                    } else {
+                        console.error(xhr.statusText);
+                    }
+                };
+                xhr.onerror = function () {
+                    console.error(xhr.statusText);
+                };
+                xhr.send("text=" + encodeURIComponent(messageText));
+            });
+
+            function refreshPage() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", window.location.href, true);
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        var parser = new DOMParser();
+                        var responseDoc = parser.parseFromString(xhr.responseText, "text/html");
+                        var chatContent = responseDoc.querySelector("#chat").innerHTML;
+                        document.querySelector("#chat").innerHTML = chatContent;
+                        document.querySelector("#messageText").value = "";
+                    } else {
+                        console.error(xhr.statusText);
+                    }
+                };
+                xhr.onerror = function () {
+                    console.error(xhr.statusText);
+                };
+                xhr.send();
+            }
+        });
+
+    </script>
+      
+
+
+}

@@ -1,0 +1,96 @@
+﻿    @model gifCartVM
+@{
+    ViewData["Title"] = "Index";
+}
+<main>
+    <section id="DigitalGiftCarts">
+        <div class="container" style="position: relative;">
+            <div class="row">
+                <div class="image"></div>
+                <div class="text">
+                    <div class="title">Digital Gift Cards</div>
+                    <div class="desc">
+                        Not sure which delicious cocktail to send? Send a gift card and
+                        let them choose! Gift card orders are non-refundable.
+                    </div>
+                    <div class="buttons">
+                        <button class="redeemingGiftCard" type="submit">
+                            <a href="">Redeeming a Gift Card</a>
+                        </button>
+                        <button class="checkGiftCardBalance" type="submit">
+                            Check Gift Card Balance
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="BuyGiftCard">
+        <div class="container">
+            <div class="row">
+                <div class="title">By a gift card</div>
+                <form asp-controller="Gifcart" asp-action="GiftCard" method="post">
+                    <div class="chooseCard">
+                        <div class="header">1. Choose your gift card</div>
+                        <div class="row">
+                          @foreach (var item in Model.GiftCartColors)
+                            {
+                                  <div class="col-lg-4">
+                                <div class="image">
+                                    <img class="blackcard"
+                                         width="100%"
+                                         src="~/assets/photos/GifCard/@item.ImagePath"
+                                         alt="" />
+                                        <input name="SelectedCardColorId" value="@item.Id"  type="checkbox" class="black_check d-none" />
+                                </div>
+                            </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="choosePrice">
+                        <div class="header">2. How much is it for?</div>
+                        <ul class="choose">
+                        
+                            @foreach (var item in Model.PriceOptionList)
+                            {
+                                  <li>
+                                <span class="choosePricee">$@item.Amount</span>
+                                    <input name="SelectedAmountId" value="@item.Id" type="checkbox" class="chooseCheck d-none" />
+                            </li>
+                            }
+                          
+                        </ul>
+                    </div>
+
+                    <div class="enterInformation">
+                        <div class="header">3. Enter the information</div>
+
+                        <div class="recipientName">
+                            <label asp-for="RecipientName">Recipient’s Name *</label><br />
+                            @Html.DropDownList("RecipientName", ViewBag.UserList as SelectList, "Select", new { id = "RecipientNameA" })
+
+
+                        </div>
+                        <div class="Message">
+                            <label asp-for="Message"> Message *</label> <br />
+                            <textarea placeholder="Message (optinonal)"
+                                     asp-for="Message"
+                                      cols="30"
+                                      rows="10"></textarea>
+                        </div>
+                        
+                        <a href="#DigitalGiftCarts">
+                            <button class="addCartBasket" type="submit"><span>Add to basket</span></button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</main>
+@section Scripts{
+}
+

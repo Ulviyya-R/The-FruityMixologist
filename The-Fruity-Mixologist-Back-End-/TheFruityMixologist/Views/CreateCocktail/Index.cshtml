@@ -1,0 +1,121 @@
+﻿<main>
+    <section id="Recipes">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="create">
+                        <div class="row">
+                            <div id="loader">
+                                <div id="lemon" class="d-none"></div>
+                                <div id="straw"></div>
+                                <div id="glass">
+                                    <div id="cubes" class="d-none">
+                                        <div id="3cihis"></div>
+                                        <div id="2cihis"></div>
+                                        <div id="1cihis"></div>
+                                    </div>
+                                    <div id="drink"></div>
+                                    <span id="counter"></span>
+                                    <div id="q50m"></div>
+                                    <div id="q100m"></div>
+                                    <div id="q150m"></div>
+                                    <div id="q200m"></div>
+                                    <div id="q250m"></div>
+                                    <div id="q300m"></div>
+                                </div>
+                                <div id="coaster"></div>
+                            </div>
+                            <div class="addIng">
+                                <span class="one">1.50 ml Alcohol</span>
+                                <span class="two">2.50 ml Syrup</span>
+                                <span class="three">3.50 ml Aromatic bitter</span>
+                                <span class="four">4.200qr Ice Cube</span>
+                                <span class="five">5.Lime</span>
+                            </div>
+                            <div class="replaceIngredients">
+                                <form asp-controller="CreateCocktail" asp-action="Index" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <p>01.Strong Alcohol</p>
+                                            <input type="radio" id="vodka" name="alcohol" value="2" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="editors"> Vodka</label><br />
+                                            <input type="radio" id="liqueur" name="alcohol" value="2" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Liqueur</label><br />
+                                            <input type="radio" id="whiterum" name="alcohol" value="2" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">White rum</label><br />
+                                            <input type="radio" id="silverTequila" name="alcohol" value="2" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Silver tequila</label>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <p>02. Syrups</p>
+                                            <input type="radio" id="raspberry" name="syrups" value="4" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="editors"> Raspberry syrup</label><br />
+                                            <input type="radio" id="strawberry" name="syrups" value="4" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Strawberry syrup</label><br />
+                                            <input type="radio" id="appleSyrup" name="syrups" value="4" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Apple syrup</label><br />
+                                            <input type="radio" id="cherrySyrup" name="syrups" value="4" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Cherry syrup</label>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <p>03. Aromatic bitters</p>
+                                            <input type="radio" id="angosturaBitter" name="aromatcBitters" value="5" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="editors"> Angostura bitter</label><br />
+                                            <input type="radio" id="orangeBitter" name="aromatcBitters" value="5" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Orange bitter</label><br />
+                                            <input type="radio" id="pishoBitter" name="aromatcBitters" value="5" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Pisho bitter</label><br />
+                                            <input type="radio" id="walnutBitter" name="aromatcBitters" value="5" onclick="updateTotalPrice(this)" />
+                                            <label class="radio" for="community">Walnut bitter</label>
+                                        </div>
+                                        <div class="cantReplaceIngTotal">
+                                            <div class="cantReplaceIng">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-3">
+                                                            <div class="icecube">
+                                                                <div class="title">04.</div>
+                                                                <div class="icon">
+                                                                    <input type="radio" id="ice" name="Ice" value="1" onclick="updateTotalPrice(this)" />
+                                                                    <span>Ice cube</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3">
+                                                            <div class="mint">
+                                                                <div class="title">05.</div>
+                                                                <div class="icon">
+                                                                    <input type="radio" id="lime" name="Lemon" value="1" onclick="updateTotalPrice(this)" />
+                                                                    <span>Lime cordial</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="total">
+                                                                <div class="title">Total:</div>
+                                                                <span  class="totalCreate">$</span>
+                                                            
+                                                            </div>
+                                                               
+                                                            <button type="submit"><span>Add to basket</span></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+
+@section Scripts{
+<script src="~/assets/js/cocktail.js"></script>
+}

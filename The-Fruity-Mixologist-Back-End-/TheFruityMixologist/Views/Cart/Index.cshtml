@@ -1,0 +1,162 @@
+﻿@using TheFruityMixologist.ViewModels.Order
+@inject TheFruityMixologist.Services.LayoutService layoutService
+
+@model OrderVM
+@{
+    var total = layoutService.ShowBasket().TotalPrice;
+    List<Recipe> related = ViewBag.RelatedProduct;
+}
+
+<main>
+    <section id="Cart">
+        <div class="container">
+            <div class="row">
+                <div class="header">Basket</div>
+                <div class="col-lg-8">
+                    <div class="title">Product</div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="title">Price</div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="icons">
+                        <div class="title">Icons</div>
+                    </div>
+                </div>
+                <div class="products">
+                    @foreach(BasketItem item in Model.BasketItems){
+                        <div class="product">
+                            <div class="col-8">
+                                <div class="product-image">
+                                    <a asp-controller="Shop" asp-action="Detail" asp-route-id="@item.Recipe.Id">
+                                        <img style="width: 100%"
+                                         src="~/assets/photos/Recipes/@item.Recipe.RecipesImages.FirstOrDefault(ri=>ri.IsMain==true)?.Path" />
+                                    </a>
+                                </div>
+                                <div class="product-name-quantity">
+                                    <div class="product-name">
+                                        <span>@item.Recipe.Name</span>
+                                    </div>
+                                    <span class="product-quantity">@item.Count</span>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="product-price">
+                                    <span>$@item.Recipe.Price</span>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="icons">
+                                    <div class="del-icon">
+                                        <a asp-controller="Basket" asp-action="RemoveBasketItem" asp-route-id="@item.Recipe.Id">
+                                            <svg width="20"
+                                             height="22"
+                                             viewBox="0 0 20 22"
+                                             fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.9997 5.72998C18.9797 5.72998 18.9497 5.72998 18.9197 5.72998C13.6297 5.19998 8.34967 4.99998 3.11967 5.52998L1.07967 5.72998C0.659671 5.76998 0.289671 5.46998 0.249671 5.04998C0.209671 4.62998 0.509672 4.26998 0.919672 4.22998L2.95967 4.02998C8.27967 3.48998 13.6697 3.69998 19.0697 4.22998C19.4797 4.26998 19.7797 4.63998 19.7397 5.04998C19.7097 5.43998 19.3797 5.72998 18.9997 5.72998Z"
+                                                  fill="white" />
+                                                <path d="M6.49977 4.72C6.45977 4.72 6.41977 4.72 6.36977 4.71C5.96977 4.64 5.68977 4.25 5.75977 3.85L5.97977 2.54C6.13977 1.58 6.35977 0.25 8.68976 0.25H11.3098C13.6498 0.25 13.8698 1.63 14.0198 2.55L14.2398 3.85C14.3098 4.26 14.0298 4.65 13.6298 4.71C13.2198 4.78 12.8298 4.5 12.7698 4.1L12.5498 2.8C12.4098 1.93 12.3798 1.76 11.3198 1.76H8.69977C7.63977 1.76 7.61977 1.9 7.46977 2.79L7.23977 4.09C7.17977 4.46 6.85977 4.72 6.49977 4.72Z"
+                                                  fill="white" />
+                                                <path d="M13.2104 21.75H6.79039C3.30039 21.75 3.16039 19.82 3.05039 18.26L2.40039 8.18995C2.37039 7.77995 2.69039 7.41995 3.10039 7.38995C3.52039 7.36995 3.87039 7.67995 3.90039 8.08995L4.55039 18.16C4.66039 19.68 4.70039 20.25 6.79039 20.25H13.2104C15.3104 20.25 15.3504 19.68 15.4504 18.16L16.1004 8.08995C16.1304 7.67995 16.4904 7.36995 16.9004 7.38995C17.3104 7.41995 17.6304 7.76995 17.6004 8.18995L16.9504 18.26C16.8404 19.82 16.7004 21.75 13.2104 21.75Z"
+                                                  fill="white" />
+                                                <path d="M11.6601 16.25H8.33008C7.92008 16.25 7.58008 15.91 7.58008 15.5C7.58008 15.09 7.92008 14.75 8.33008 14.75H11.6601C12.0701 14.75 12.4101 15.09 12.4101 15.5C12.4101 15.91 12.0701 16.25 11.6601 16.25Z"
+                                                  fill="#0A0A0A" />
+                                                <path d="M12.5 12.25H7.5C7.09 12.25 6.75 11.91 6.75 11.5C6.75 11.09 7.09 10.75 7.5 10.75H12.5C12.91 10.75 13.25 11.09 13.25 11.5C13.25 11.91 12.91 12.25 12.5 12.25Z"
+                                                  fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                    @foreach (gifCart item in Model.gifCarts.Where(g => g.status == TheFruityMixologist.Utilities.Enum.OrderStatus.Default))
+                    {
+                        <div class="product">
+                            <div class="col-8">
+                                <div class="product-image">
+                                    <a>
+                                        <img width="100%" src="~/assets/photos/GifCard/@item.GiftCartColor.ImagePath" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-name-quantity">
+                                    <div class="product-name">
+                                        <span>@item.GiftCartColor.Color</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                                
+
+
+                            <div class="col-3">
+                                <div class="product-price">
+                                    <span>$@item.PriceOption.Amount</span>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="icons">
+                                    <div class="del-icon">
+                                        <a asp-controller="Gifcart" asp-action="Delete" asp-route-id="@item.Id">
+                                            <svg width="20"
+                                                 height="22"
+                                                 viewBox="0 0 20 22"
+                                                 fill="none"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M18.9997 5.72998C18.9797 5.72998 18.9497 5.72998 18.9197 5.72998C13.6297 5.19998 8.34967 4.99998 3.11967 5.52998L1.07967 5.72998C0.659671 5.76998 0.289671 5.46998 0.249671 5.04998C0.209671 4.62998 0.509672 4.26998 0.919672 4.22998L2.95967 4.02998C8.27967 3.48998 13.6697 3.69998 19.0697 4.22998C19.4797 4.26998 19.7797 4.63998 19.7397 5.04998C19.7097 5.43998 19.3797 5.72998 18.9997 5.72998Z"
+                                                      fill="white" />
+                                                <path d="M6.49977 4.72C6.45977 4.72 6.41977 4.72 6.36977 4.71C5.96977 4.64 5.68977 4.25 5.75977 3.85L5.97977 2.54C6.13977 1.58 6.35977 0.25 8.68976 0.25H11.3098C13.6498 0.25 13.8698 1.63 14.0198 2.55L14.2398 3.85C14.3098 4.26 14.0298 4.65 13.6298 4.71C13.2198 4.78 12.8298 4.5 12.7698 4.1L12.5498 2.8C12.4098 1.93 12.3798 1.76 11.3198 1.76H8.69977C7.63977 1.76 7.61977 1.9 7.46977 2.79L7.23977 4.09C7.17977 4.46 6.85977 4.72 6.49977 4.72Z"
+                                                      fill="white" />
+                                                <path d="M13.2104 21.75H6.79039C3.30039 21.75 3.16039 19.82 3.05039 18.26L2.40039 8.18995C2.37039 7.77995 2.69039 7.41995 3.10039 7.38995C3.52039 7.36995 3.87039 7.67995 3.90039 8.08995L4.55039 18.16C4.66039 19.68 4.70039 20.25 6.79039 20.25H13.2104C15.3104 20.25 15.3504 19.68 15.4504 18.16L16.1004 8.08995C16.1304 7.67995 16.4904 7.36995 16.9004 7.38995C17.3104 7.41995 17.6304 7.76995 17.6004 8.18995L16.9504 18.26C16.8404 19.82 16.7004 21.75 13.2104 21.75Z"
+                                                      fill="white" />
+                                                <path d="M11.6601 16.25H8.33008C7.92008 16.25 7.58008 15.91 7.58008 15.5C7.58008 15.09 7.92008 14.75 8.33008 14.75H11.6601C12.0701 14.75 12.4101 15.09 12.4101 15.5C12.4101 15.91 12.0701 16.25 11.6601 16.25Z"
+                                                      fill="#0A0A0A" />
+                                                <path d="M12.5 12.25H7.5C7.09 12.25 6.75 11.91 6.75 11.5C6.75 11.09 7.09 10.75 7.5 10.75H12.5C12.91 10.75 13.25 11.09 13.25 11.5C13.25 11.91 12.91 12.25 12.5 12.25Z"
+                                                      fill="white" />
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+            </div>
+
+            <div class="totalOrderValue">
+                <div class="container">
+                    <div class="row">
+                        <div class="total">
+                            <span class="text">Total order value:</span>
+                            <span class="price">$@total</span>
+                        </div>
+                        <div class="checkoutBut">
+                            <a asp-controller="Order" asp-action="Checkout">
+                                <button><span>Checkout</span></button>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="RelatedProducts">
+        <div class="container">
+            <div class="row">
+                <div class="title">Recommended for you</div>
+                <div class="products">
+                    <div class="row">
+                        @await Html.PartialAsync("_RelatedRecipes", related)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
