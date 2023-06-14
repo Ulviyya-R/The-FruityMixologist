@@ -1173,11 +1173,11 @@ body main #Subscribe .text span {
   width: 644px;
   height: 52px;
 }
-body main #Subscribe form .sendEmailInputButton {
+body main #Subscribe .sendEmailInputButton {
   display: flex;
   justify-content: center;
 }
-body main #Subscribe form .sendEmailInputButton input {
+body main #Subscribe .sendEmailInputButton input {
   padding: 12px 0px 12px 16px;
   gap: 8px;
   width: 392px;
@@ -1185,8 +1185,10 @@ body main #Subscribe form .sendEmailInputButton input {
   background: #0a0a0a;
   border: 1px solid #828282;
   border-radius: 8px;
+  color: white;
+  font-size: 18px;
 }
-body main #Subscribe form .sendEmailInputButton button {
+body main #Subscribe .sendEmailInputButton button {
   color: #f2f2f2;
   padding: 15px 16px;
   margin-left: 20px;
@@ -1203,7 +1205,6 @@ body main #Subscribe form .sendEmailInputButton button {
     background-color: #4c4c4c;
     padding-bottom: 40px;
     padding-top: 25px;
-    display: block !important;
   }
   body main #Subscribe .title {
     width: 298px;
@@ -1226,6 +1227,7 @@ body main #Subscribe form .sendEmailInputButton button {
   body main #Subscribe .sendEmailInputButton button {
     width: 342px;
     color: #f2f2f2;
+    height: 54px;
     background: #ed0039;
     border-radius: 8px;
   }
@@ -1686,6 +1688,16 @@ body main #DjPlayMusic .playMusic .music {
 }
 body main #DjPlayMusic .playMusic .music audio {
   display: none;
+}
+body main #DjPlayMusic .playMusic .music .messagesurl {
+  padding: 15px 16px;
+  gap: 8px;
+  width: 184px;
+  height: 54px;
+  background: #ed0039;
+  color: #f2f2f2;
+  border-radius: 8px;
+  margin-top: 80px;
 }
 body main #DjPlayMusic .playMusic .music #music-player {
   background-image: url(../photos/DjMusic/Mask\ group.png);

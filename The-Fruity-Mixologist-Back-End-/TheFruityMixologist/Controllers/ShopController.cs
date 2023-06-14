@@ -87,11 +87,11 @@ namespace TheFruityMixologist.Controllers
             if (price != null && price.Length > 0)
             {
                 if (price.Contains("expensive"))
-                    queryPrice = queryPrice.Where(x => x.Price > 50);
+                    queryPrice = queryPrice.Where(x => x.Price > 15);
                 if (price.Contains("middle"))
-                    queryPrice = queryPrice.Where(x => x.Price >= 30 && x.Price <= 50);
+                    queryPrice = queryPrice.Where(x => x.Price >= 7 && x.Price <= 15);
                 if (price.Contains("cheap"))
-                    queryPrice = queryPrice.Where(x => x.Price >= 5 && x.Price <= 10);
+                    queryPrice = queryPrice.Where(x => x.Price >= 1 && x.Price <= 7);
             }
 
             var results = queryPrice.ToList();

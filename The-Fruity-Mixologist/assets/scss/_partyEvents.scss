@@ -2,6 +2,7 @@
   font-family: "VisbyBold";
   src: url("../font/VisbyBold.otf");
 }
+
 @font-face {
   font-family: "Visby";
   src: url("../font/VisbyMedium.otf");
@@ -11,6 +12,7 @@ body {
   main {
     #cocktailEvents {
       padding-top: 30px;
+
       .text {
         .title {
           font-family: VisbyBold;
@@ -21,6 +23,7 @@ body {
           width: 496px;
           height: 112px;
         }
+
         .desc {
           width: 496px;
           height: 166px;
@@ -33,15 +36,19 @@ body {
           color: #c9c9c9;
         }
       }
+
       .imagee {
         margin-left: 31px;
+
         img {
           border-radius: 10px;
         }
       }
     }
+
     #Events {
       padding-top: 150px;
+
       .eventDateNamePhoto {
         .eventnumber {
           .number {
@@ -51,6 +58,7 @@ body {
             display: block;
             color: #f2f2f2;
           }
+
           .event {
             font-size: 20px;
             line-height: 22px;
@@ -58,14 +66,17 @@ body {
           }
         }
       }
+
       .eventImages {
         .image {
           width: 496px;
+
           img {
             padding-right: 25px;
           }
         }
       }
+
       .eventDateName {
         position: relative;
         width: 204px;
@@ -73,6 +84,7 @@ body {
         z-index: 1;
         left: 268px;
       }
+
       .date {
         width: 112px;
         height: 40px;
@@ -83,6 +95,7 @@ body {
           color: #e8e8e8;
         }
       }
+
       .eventName {
         font-family: VisbyBold;
         font-size: 40px;
@@ -94,6 +107,7 @@ body {
 
     #DjPlayMusic {
       padding-top: 150px;
+
       //   .DjImg {
       //     width: 496px;
       //     height: 632px;
@@ -101,9 +115,11 @@ body {
       .playMusic {
         position: relative;
         top: 125px;
+
         .musicName {
           width: 270px;
           height: 60px;
+
           span {
             font-family: VisbyBold;
             font-size: 24px;
@@ -111,10 +127,23 @@ body {
             color: #f2f2f2;
           }
         }
+
         .music {
           margin-top: 100px;
+
           audio {
             display: none;
+          }
+
+          .messagesurl {
+            padding: 15px 16px;
+            gap: 8px;
+            width: 184px;
+            height: 54px;
+            background: #ed0039;
+            color: #f2f2f2;
+            border-radius: 8px;
+            margin-top: 80px;
           }
 
           #music-player {
@@ -135,9 +164,11 @@ body {
           }
         }
       }
+
       .information {
         position: relative;
         top: 150px;
+
         .title {
           width: 254px;
           height: 56px;
@@ -146,6 +177,7 @@ body {
           color: #f2f2f2;
           margin-bottom: 20px;
         }
+
         .desc {
           width: 285px;
           height: 198px;
@@ -153,8 +185,10 @@ body {
           line-height: 22px;
           color: #e8e8e8;
         }
+
         .date {
           margin-top: 20px;
+
           span {
             padding-left: 10px;
             letter-spacing: 2px;
@@ -164,189 +198,224 @@ body {
     }
 
     #Nextevent {
-        padding-top: 120px;
+      padding-top: 120px;
+
       .header {
         font-size: 26px;
         line-height: 26px;
         color: #f2f2f2;
         padding-bottom: 30px;
       }
+
+      .nextEvent {
+        .dateAddress {
+          display: flex;
+          margin-top: 10px;
+
+          .date {
+            width: 80px;
+            height: 60px;
+
+            font-family: "Visby";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+
+            text-align: center;
+
+            /* Natural/0 */
+
+            color: #f2f2f2;
+            border-right: 1px solid #f2f2f2;
+            padding-right: 15px;
+          }
+
+          .addr {
+            width: 270px;
+            height: 60px;
+            font-family: "Visby";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 150% */
+
+            /* Natural/0 */
+
+            color: #f2f2f2;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 820px) {
+    main {
+      #cocktailEvents {
+        padding-top: 30px;
+
+        .text {
+          .title {
+            width: 100%;
+            height: auto;
+          }
+
+          .desc {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        .imagee {
+          margin-left: 0px !important;
+
+          img {
+            border-radius: 10px;
+          }
+        }
+      }
+
+      #Events {
+        padding-top: 150px;
+
+        .eventDateNamePhoto {
+          .eventnumber {
+            .number {
+              display: inline;
+            }
+
+            .event {
+              font-size: 16px;
+            }
+          }
+        }
+
+        .eventImages {
+          .image {
+            width: 288px;
+
+            img {
+              padding-right: 0;
+            }
+          }
+        }
+
+        .eventDateName {
+          position: relative;
+          width: 100%;
+          top: 0;
+          left: 0;
+        }
+
+        .date {
+          width: 100%;
+          height: auto;
+        }
+
+        .eventName {
+          padding-top: 0;
+        }
+      }
+
+      #DjPlayMusic {
+        padding-top: 150px;
+
+        .playMusic {
+          position: relative;
+          top: 0;
+          margin-bottom: 30px;
+
+          .musicName {
+            width: 100%;
+            margin-bottom: 25px;
+          }
+
+          .music {
+            margin-top: 0;
+
+            #music-player {
+              width: 100%;
+            }
+
+            #play-button {
+              margin-left: 0;
+            }
+          }
+        }
+
+        .information {
+          position: relative;
+          top: 0;
+
+          .title {
+            width: 100%;
+          }
+
+          .desc {
+            width: 100%;
+          }
+
+          .date {
+            margin-top: 0;
+          }
+        }
+      }
+
+      #Nextevent {
+        padding-top: 120px;
+
+        .header {
+          font-size: 26px;
+          line-height: 26px;
+          color: #f2f2f2;
+          padding-bottom: 30px;
+        }
+
         .nextEvent {
           .dateAddress {
-            display: flex;
-           margin-top: 10px;
+            display: block;
+            margin-top: 0;
+
             .date {
-              width: 80px;
-              height: 60px;
-
-              font-family: "Visby";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 20px;
-              line-height: 30px;
-              /* or 150% */
-
-              text-align: center;
-
-              /* Natural/0 */
-
-              color: #f2f2f2;
-              border-right: 1px solid #f2f2f2;
-              padding-right: 15px;
+              width: 100%;
+              border-right: none;
+              padding-right: 0;
             }
+
             .addr {
-              width: 270px;
-              height: 60px;
-              font-family: "Visby";
-              font-style: normal;
-              font-weight: 500;
-              font-size: 20px;
-              line-height: 30px;
-              /* or 150% */
-
-              /* Natural/0 */
-
-              color: #f2f2f2;
-              padding-left: 20px;
+              width: 100%;
+              padding-left: 0;
             }
           }
         }
       }
     }
-    @media only screen and (min-width: 390px) and (max-width: 820px) {
-      main {
-        #cocktailEvents {
-          padding-top: 30px;
-          .text {
-            .title {
-              width: 100%; 
-              height: auto; 
-            }
-            .desc {
-              width: 100%; 
-              height: auto;
-            }
-          }
-          .imagee {
-            margin-left: 0px !important;
-            img {
-              border-radius: 10px;
-            }
-          }
-        }
-        #Events {
-          padding-top: 150px;
-          .eventDateNamePhoto {
-            .eventnumber {
-              .number {
-                display: inline; 
-              }
-              .event {
-                font-size: 16px;
-              }
-            }
-          }
-          .eventImages {
-            .image {
-              width: 288px;
-              img {
-                padding-right: 0; 
-              }
-            }
-          }
-          .eventDateName {
-            position: relative;
-            width: 100%;
-            top: 0; 
-            left: 0; 
-          }
-          .date {
-            width: 100%; 
-            height: auto; 
-          }
-          .eventName {
-            padding-top: 0; 
-          }
-        }
-        #DjPlayMusic {
-          padding-top: 150px;
-          .playMusic {
-            position: relative;
-            top: 0; 
-            margin-bottom: 30px;
-            .musicName {
-              width: 100%;
-              margin-bottom: 25px;
-            }
-            .music {
-              margin-top: 0; 
-              #music-player {
-                width: 100%;
-              }
-              #play-button {
-                margin-left: 0; 
-              }
-            }
-          }
-          .information {
-            position: relative;
-            top: 0; 
-            .title {
-              width: 100%; 
-            }
-            .desc {
-              width: 100%; 
-            }
-            .date {
-              margin-top: 0; 
-            }
-          }
-        }
-        #Nextevent {
-          padding-top: 120px;
-          .header {
-            font-size: 26px;
-            line-height: 26px;
-            color: #f2f2f2;
-            padding-bottom: 30px;
-          }
-          .nextEvent {
-            .dateAddress {
-              display: block; 
-              margin-top: 0; 
-              .date {
-                width: 100%; 
-                border-right: none;
-                padding-right: 0; 
-              }
-              .addr {
-                width: 100%; 
-                padding-left: 0; 
-              }
-            }
-          }
-        }
-      }
-    }
-    
-    #Partners {
-        padding-top: 120px;
-        .text {
-          font-size: 44px;
-          line-height: 44px;
-          color: #fefefe;
-        }
-        .partnersImg {
-          .partner {
-            width: 164px;
-            height: 107px;
-            margin-left: 70px;
-            img {
-              width: 100%;
-            }
-          }
-        }
-      }
-  
-    
   }
+
+  #Partners {
+    padding-top: 120px;
+
+    .text {
+      font-size: 44px;
+      line-height: 44px;
+      color: #fefefe;
+    }
+
+    .partnersImg {
+      .partner {
+        width: 164px;
+        height: 107px;
+        margin-left: 70px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+
+}
