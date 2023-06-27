@@ -24,7 +24,10 @@ namespace TheFruityMixologist.Controllers
         {
 
             Recipe? recipe = _context.Recipes.FirstOrDefault(p => p.Id == id);
-
+            if (count == 0)
+            {
+                count = 1;
+            }
 
 
             if (User.Identity.IsAuthenticated)

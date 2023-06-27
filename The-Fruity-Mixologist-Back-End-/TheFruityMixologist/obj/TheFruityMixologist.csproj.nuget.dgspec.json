@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj": {}
+    "C:\\Users\\user\\Desktop\\eslyoxlama\\The-FruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj": {
+    "C:\\Users\\user\\Desktop\\eslyoxlama\\The-FruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\eslyoxlama\\The-FruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj",
         "projectName": "TheFruityMixologist",
-        "projectPath": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\eslyoxlama\\The-FruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\TheFruityMixologist.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\TheFruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\eslyoxlama\\The-FruityMixologist\\The-Fruity-Mixologist-Back-End-\\TheFruityMixologist\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.13, )"
+              "version": "[6.0.14, )"
             },
             "MimeKit": {
               "target": "Package",

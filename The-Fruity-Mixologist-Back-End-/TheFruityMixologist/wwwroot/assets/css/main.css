@@ -3916,14 +3916,11 @@ main .jumbotron {
   overflow-x: hidden;
   background-color: #0a0a0a;
   height: 495px;
-  width: 65%;
-  margin-left: 250px;
   border-radius: 2%;
   padding-top: 35px;
 }
 main .jumbotron h2 {
   padding-bottom: 20px;
-  margin-right: 210px;
 }
 main .jumbotron .form .form-group {
   display: inline-flex;
